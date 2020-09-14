@@ -1,0 +1,25 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMIDACCI">
+	<ListaAtivacaoDACC>
+		<Dados OrigemRequisicao="SOAP">
+			<ListaDocumentos>
+				<Documento>
+					<TipoDocumento>CPF</TipoDocumento>
+					<NumeroDocumento>25634567890</NumeroDocumento>
+				</Documento>
+			</ListaDocumentos>
+			<ListaFaturas>
+				<ContaFatura>
+					<NumeroConta>xxxxxxxxxxxx</NumeroConta>
+					<TipoCobranca>3</TipoCobranca>
+					<CodigoBanco>033</CodigoBanco>
+					<CodigoAgencia>0125</CodigoAgencia>
+					<ContaCorrente>010246410</ContaCorrente>
+					<PDV>0001001624</PDV>
+					<LoginVendedor>0001001624</LoginVendedor>
+					<NomeBanco>BANCO SANTANDER</NomeBanco>
+					<NumeroCartaoCredito>0123455445</NumeroCartaoCredito>
+				</ContaFatura>
+			</ListaFaturas>
+		</Dados>
+	</ListaAtivacaoDACC>
+</SiebelMessage>

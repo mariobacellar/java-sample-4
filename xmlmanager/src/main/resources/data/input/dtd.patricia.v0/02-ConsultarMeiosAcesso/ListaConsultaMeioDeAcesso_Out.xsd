@@ -1,0 +1,38 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="SiebelMessage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ListaRetorno">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Retorno">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Codigo" type="xs:string"></xs:element>
+										<xs:element name="Mensagem" type="xs:string"></xs:element>
+										<xs:element name="ListaMeioDeAcessoMeioDeAcesso">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MeioDeAcesso">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="MSISDN" type="xs:string"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="IntObjectName" type="xs:string"></xs:attribute>
+			<xs:attribute name="MessageId" type="xs:string"></xs:attribute>
+			<xs:attribute name="MessageType" type="xs:string"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

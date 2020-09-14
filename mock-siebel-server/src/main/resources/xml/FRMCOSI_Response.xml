@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCOSO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>1</Codigo>
+			<Mensagem>ok</Mensagem>
+			<ListaDados>
+				<Dados>
+					<StatusOS>0</StatusOS>
+					<NumeroContaFatura />
+					<PDV />
+					<NomeCampanha />
+					<NomeOferta />
+					<NomePlano />
+					<NumeroOS />
+					<ListaMeioDeAcessos>
+						<MeioDeAcesso>
+							<MSISDN />
+							<Status />
+						</MeioDeAcesso>
+					</ListaMeioDeAcessos>
+					<ListaTvs>
+						<TV>
+							<Pacote />
+							<Contrato />
+							<Status />
+						</TV>
+					</ListaTvs>
+					<ListaFixos>
+						<Fixo>
+							<Numero />
+							<Produto />
+							<Status />
+						</Fixo>
+					</ListaFixos>
+					<ListaVelox>
+						<Velox>
+							<Velocidade />
+							<Tecnologia />
+							<Status />
+						</Velox>
+					</ListaVelox>
+				</Dados>
+			</ListaDados>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage>

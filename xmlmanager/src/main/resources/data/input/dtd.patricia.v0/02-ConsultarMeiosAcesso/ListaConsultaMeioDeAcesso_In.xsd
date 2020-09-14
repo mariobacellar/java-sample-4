@@ -1,0 +1,40 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="SiebelMessage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ListaConsultaMeioDeAcesso">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Dados">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ListaMeioDeAcessoMeioDeAcesso">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MeioDeAcesso">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="NumeroContaFatura" type="xs:string"></xs:element>
+																<xs:element name="DDD" type="xs:string"></xs:element>
+																<xs:element name="Designacao" type="xs:string"></xs:element>
+																<xs:element name="Classificacao" type="xs:string"></xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="OrigemRequisicao" type="xs:string"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="IntObjectName" type="xs:string"></xs:attribute>
+			<xs:attribute name="MessageId" type="xs:string"></xs:attribute>
+			<xs:attribute name="MessageType" type="xs:string"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <comment>Here are some favorites</comment>
+    <entry key="query.1.wiql">SELECT ID, [Work Item Type], Title, [Assigned To], State, Tags FROM WorkItems WHERE  ([Work Item Type] = 'Epic' and [Text field 3] = 'Aguardando desenvolvimento') OR ([Work Item Type] = 'Epic' and [Text field 3] = 'Em desenvolvimento') ORDER BY ID</entry>
+    <entry key="query.1.status">on</entry>
+    <entry key="query.1.interval">5000</entry>
+</properties>

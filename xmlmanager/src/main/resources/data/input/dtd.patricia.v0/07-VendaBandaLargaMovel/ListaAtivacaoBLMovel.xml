@@ -1,0 +1,23 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaAtivacaoBLMovel>
+    <Dados OrigemRequisicao="">
+      <ListaOrdensOrdem>
+        <Ordem>
+          <NumeroContaFatura>NumeroContaFatura</NumeroContaFatura>
+          <NomePlano>NomePlano</NomePlano>
+          <NomeCampanha>NomeCampanha</NomeCampanha>
+          <NomeOferta>NomeOferta</NomeOferta>
+          <PDV>PDV</PDV>
+          <ListaItensOrdemItemOrdem>
+            <ItemOrdem>
+              <DDD>DDD</DDD>
+              <OpcaoOiDados>OpcaoOiDados</OpcaoOiDados>
+              <MSISDN>MSISDN</MSISDN>
+              <OiChip>OiChip</OiChip>
+            </ItemOrdem>
+          </ListaItensOrdemItemOrdem>
+        </Ordem>
+      </ListaOrdensOrdem>
+    </Dados>
+  </ListaAtivacaoBLMovel>
+</SiebelMessage>

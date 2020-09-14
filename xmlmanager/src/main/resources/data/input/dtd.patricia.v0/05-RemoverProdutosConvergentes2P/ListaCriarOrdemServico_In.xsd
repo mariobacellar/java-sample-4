@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <xs:element name="SiebelMessage">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="ListaRetorno">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Retorno">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Codigo" type="xs:string"></xs:element>
+                                                               <xs:element name="Mensagem" type="xs:string"></xs:element>
+                                                               <xs:element name="IdBundle" type="xs:string"></xs:element>
+                                                               <xs:element name="ListaItensOrdemItemOrdem">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="ItemOrdem">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="MSISDN" type="xs:string"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="IntObjectName" type="xs:string"></xs:attribute>
+                     <xs:attribute name="MessageId" type="xs:string"></xs:attribute>
+                     <xs:attribute name="MessageType" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

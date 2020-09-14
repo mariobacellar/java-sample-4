@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<query>
+    <id>1</id>
+    <wiql>SELECT ID, [Work Item Type], Title, [Assigned To], State, Tags FROM WorkItems WHERE  ([Work Item Type] = 'Epic' and [Text field 3] = 'Aguardando desenvolvimento') OR ([Work Item Type] = 'Epic' and [Text field 3] = 'Em desenvolvimento') ORDER BY ID</wiql> 
+    <status>on</status>
+    <interval>5000</interval>
+</query>

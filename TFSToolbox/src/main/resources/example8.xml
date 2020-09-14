@@ -1,0 +1,12 @@
+<example>
+  <a>
+    <double>1.2</double>
+    <double>31.6</double>
+    <double>52.99</double>
+  </a>
+  <a>
+    <double>1.2</double>
+    <double>31.6</double>
+    <double>52.99</double>
+  </a>
+</example>

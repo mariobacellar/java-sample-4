@@ -1,0 +1,8 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCOiChipO">
+<ListaRetorno>
+	<Retorno>
+		<Codigo>0</Codigo>
+		<Mensagem>sucesso</Mensagem>
+	</Retorno>
+</ListaRetorno>
+</SiebelMessage>

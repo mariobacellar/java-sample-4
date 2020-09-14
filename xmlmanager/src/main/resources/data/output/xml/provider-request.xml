@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SiebelMessage MessageId="" 	MessageType="Integration Object" IntObjectName="FRMIShBI">
+	<ListaCriarOrdemServico>
+		<Dados>
+			<ListaOrdens>
+				<Ordem>
+					<NumeroContaFatura />
+					<NomePlano />
+					<NomeCampanha />
+					<NomeOferta />
+					<PDV />
+					<ListaItensOrdem>
+						<ItemOrdem>
+							<DDD />
+							<OpcaoOiDados />
+							<MSISDN />
+							<IMEI />
+							<OiChip />
+							<ModeloAparelho />
+						</ItemOrdem>
+					</ListaItensOrdem>
+				</Ordem>
+			</ListaOrdens>
+		</Dados>
+	</ListaCriarOrdemServico>
+</SiebelMessage>

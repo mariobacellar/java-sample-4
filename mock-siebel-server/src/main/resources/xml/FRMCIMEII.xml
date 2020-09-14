@@ -1,0 +1,12 @@
+<SiebelMessage xmlns="" IntObjectName="FRMCIMEII" MessageType="Integration Object" MessageId="">
+	<ListaConsultaImei>
+		<Dados OrigemRequisicao="OA0848">
+			<ListaNumero>
+				<Numero>
+					<Numero>600000000229865</Numero>
+					<Modelo>Nokia 3310</Modelo>
+				</Numero>
+			</ListaNumero>
+		</Dados>
+	</ListaConsultaImei>
+</SiebelMessage>

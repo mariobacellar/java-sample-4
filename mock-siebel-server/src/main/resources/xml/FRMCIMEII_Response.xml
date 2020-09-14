@@ -1,0 +1,8 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMPRetO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>-20</Codigo>
+			<Mensagem>Este IMEI não pode ser utilizado para ativação, pois está com Status = Ativado.</Mensagem>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage>

@@ -1,0 +1,21 @@
+Id;WorkItemType;Title;Assigned To;State;Tags;
+1753;Epic;Melhorias de Qualidade;Keubson Castro;Active;null
+2120;Epic;[TIM2667][DM15002715] [Fase 2] Aprovisionamento na nova base do senha única;pedro.naressi;Active;null
+3667;Epic;[WEB0026][TIR#305677][DMXXXXXXXX][OTP][HE][OAAM] Relatório de Analytics;daniel.da.s.resende;Active;null
+17189;Epic;[WEB0156][TIR#330968][OAM] Reconhecimento do Aparelho (finger print) no processo de autenticação;daniel.da.s.resende;Active;null
+19134;Epic;[WEB0176][TIR#334426][Britney][Fase 2] Substituição do serviço de Profiling e descontinuação da API GET /v2/packages/data/eligible;pedro.naressi;Active;null
+19429;Epic;[WEB0184][TIR#334958][DM17001896] [Site TIM][Consulta Status Portabilidade] -Adequação de serviço e layout;ygor.bandin.satiro;Active;null
+22002;Epic;[WEB0215][INF#337455][Meu TIM][TIM] Levantamento de todos as aplicações que ainda utilizam Java Locator no Meu TIM e TIM;paulo.pimenta.filho;Active;null
+23544;Epic;[WEB0241][TIR#340445][Meu TIM][Cancelamento Canais Texto] Meu TIM;thiago.barreto;Active;null
+25019;Epic;[WEB0262][TIR#342008] [Britney Fase2] Problemas de protótipo quebram layout do Box Progressão de Consumo;pedro.naressi;Active;null
+25962;Epic;[CON0012][TIR#334958][DM17001896][Site Tim] Consulta Status Portabilidade - Adequação de serviço e layout;paulo.pimenta.filho;Active;null
+28208;Epic;[WEB0287][TIR#345271][AcessControl] Autenticação para o netflix;daniel.da.s.resende;Active;null
+29641;Epic;[WEB0295][TIR#347153][Britney - Envio de Protocolo] Inclusão do fluxo de enviar protocolo por email;Thiago S. Batista;Active;null
+30608;Epic;[WEB0311][TIR#347125][DM18000544][Branca de Neve] Identificação do cliente pelo OTP;daniel.da.s.resende;Active;null
+30946;Epic;[WEB0320][TIR#XXXXXX] WhatsApp Extra;paulo.pimenta.filho;Active;null
+31378;Epic;[CON0017][TIR#347125][DM18000544][Branca de Neve] Identificação do cliente pelo OTP;paulo.pimenta.filho;Active;null
+33603;Epic;[WEB0339][TFS#113588][Projeto 300 Dias][OAG] Criação de API para validação de estoque do SIMCARD;allys.dantas;Active;null
+34020;Epic;[WEB0349][DM18001229 ][TIR#117582][Britney] Sprint 1 - Hipopótamo;pedro.naressi;Active;null
+35350;Epic;[Britney] HOME;andre.dimario;Active;null
+35351;Epic;[Britney] Nova Pre HOME;andre.dimario;Active;null
+19

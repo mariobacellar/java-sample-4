@@ -1,0 +1,53 @@
+<!-- Copyright (C) 1994, Siebel Systems, L.P., All rights reserved. -->
+<!-- Siebel DTD Generation -->
+<!ELEMENT SiebelMessage (ListaCriarOrdemServico?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaCriarOrdemServico (Dados+)>
+<!ELEMENT Dados (ListaOrdens?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaOrdens (Ordem*) >
+<!ELEMENT Ordem (NumeroContaFatura?,NomePlano?,NomeCampanha?,NomeOferta?,PDV?,ListaInstancias?,ListaConvergentes?)>
+<!ELEMENT NumeroContaFatura (#PCDATA) >
+<!ELEMENT NomePlano (#PCDATA) >
+<!ELEMENT NomeCampanha (#PCDATA) >
+<!ELEMENT NomeOferta (#PCDATA) >
+<!ELEMENT PDV (#PCDATA) >
+<!ELEMENT ListaInstancias (Instancias*) >
+<!ELEMENT Instancias (AcaoInstancia?,DDD?,OiChip?,MSISDN?,IMEI?,OpcaoOiDados?,Relacionamento?,Vendedor?,Comentario?,ModeloAparelho?,Contato?,OfertaInstancia?,CampanhaInstancia?,FaturamentoInstancia?,ClienteInstancia?,NumPortabilidade?,NovoMSISDN?,NovoIMEI?)>
+<!ELEMENT AcaoInstancia (#PCDATA) >
+<!ELEMENT DDD (#PCDATA) >
+<!ELEMENT OiChip (#PCDATA) >
+<!ELEMENT MSISDN (#PCDATA) >
+<!ELEMENT IMEI (#PCDATA) >
+<!ELEMENT OpcaoOiDados (#PCDATA) >
+<!ELEMENT Relacionamento (#PCDATA) >
+<!ELEMENT Vendedor (#PCDATA) >
+<!ELEMENT Comentario (#PCDATA) >
+<!ELEMENT ModeloAparelho (#PCDATA) >
+<!ELEMENT Contato (#PCDATA) >
+<!ELEMENT OfertaInstancia (#PCDATA) >
+<!ELEMENT CampanhaInstancia (#PCDATA) >
+<!ELEMENT FaturamentoInstancia (#PCDATA) >
+<!ELEMENT ClienteInstancia (#PCDATA) >
+<!ELEMENT NumPortabilidade (#PCDATA) >
+<!ELEMENT NovoMSISDN (#PCDATA) >
+<!ELEMENT NovoIMEI (#PCDATA) >
+<!ELEMENT ListaConvergentes (Convergentes*) >
+<!ELEMENT Convergentes (acaoConvergente?,tipo?,migraTecnologia?,numero?,velocidade?,velocidadeAtual?,tecnologia?,viabilidade?,nomePacote?,numPortabFixo?,operPortabFixo?,numSmartCard?,idFibra?,idEnderNetwin?,sistOrigem?)>
+<!ELEMENT acaoConvergente (#PCDATA) >
+<!ELEMENT tipo (#PCDATA) >
+<!ELEMENT migraTecnologia (#PCDATA) >
+<!ELEMENT numero (#PCDATA) >
+<!ELEMENT velocidade (#PCDATA) >
+<!ELEMENT velocidadeAtual (#PCDATA) >
+<!ELEMENT tecnologia (#PCDATA) >
+<!ELEMENT viabilidade (#PCDATA) >
+<!ELEMENT nomePacote (#PCDATA) >
+<!ELEMENT numPortabFixo (#PCDATA) >
+<!ELEMENT operPortabFixo (#PCDATA) >
+<!ELEMENT numSmartCard (#PCDATA) >
+<!ELEMENT idFibra (#PCDATA) >
+<!ELEMENT idEnderNetwin (#PCDATA) >
+<!ELEMENT sistOrigem (#PCDATA) >

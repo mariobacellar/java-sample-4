@@ -1,0 +1,13 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMIAcntO">
+<ListaRetorno>
+	<Retorno>
+		<Codigo>0</Codigo>
+		<Mensagem/>
+		<ListaDados>
+			<Dados>
+				<Numero>2976812123</Numero>
+			</Dados>
+		</ListaDados>
+	</Retorno>
+</ListaRetorno>
+</SiebelMessage>

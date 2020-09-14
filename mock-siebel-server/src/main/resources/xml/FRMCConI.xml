@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCConI">
+	<ListaConsultaClienteConta>
+		<Dados>
+			<OrigemRequisicao>SOAPUI</OrigemRequisicao>
+			<ListaDocumentos>
+				<Documento>
+					<NumeroDocumento>73603825721</NumeroDocumento>
+					<TipoDocumentoPrincipal>CPF</TipoDocumentoPrincipal>
+				</Documento>
+			</ListaDocumentos>
+		</Dados>
+	</ListaConsultaClienteConta>
+</SiebelMessage>

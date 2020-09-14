@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<queries>
+    <query>
+        <id>1</id>
+        <name>Epicos Em Desenvolvimento</name>
+        <wiql>SELECT ID, [Work Item Type], Title, [Assigned To], State, Tags FROM WorkItems WHERE  ([Work Item Type] = 'Epic' and [Text field 3] = 'Aguardando desenvolvimento') OR ([Work Item Type] = 'Epic' and [Text field 3] = 'Em desenvolvimento') ORDER BY ID</wiql> 
+        <status>on</status>
+        <interval>5000</interval>
+    </query>
+    <query>
+        <id>2</id>
+        <name>Todos os Epicos</name>
+        <wiql>SELECT ID, [Work Item Type], Title, [Assigned To], State, Tags FROM WorkItems WHERE  ([Work Item Type] = 'Epic' </wiql> 
+        <status>on</status>
+        <interval>5000</interval>
+    </query>
+</queries>

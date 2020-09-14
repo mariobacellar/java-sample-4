@@ -1,0 +1,24 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMIBLI" xmlns:pove="http://www.oi.net.br/Entidade/PontoVenda/XSD/v1.0" xmlns:pbun="http://www.oi.net.br/Entidade/ProdutoBundle/XSD/v2.0" xmlns:msg="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Messaging/v2" xmlns:ns1="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Types/v1" xmlns:prof="http://www.oi.net.br/Entidade/OfertaProduto/XSD/v1.0" xmlns:camp="http://www.oi.net.br/Entidade/Campanha/XSD/v2.0" xmlns:oser="http://www.oi.net.br/Entidade/OrdemServico/XSD/v1.0" xmlns:serv="http://www.oi.net.br/Entidade/Servico/XSD/v2.0" xmlns:cfat="http://www.oi.net.br/Entidade/ContaFatura/XSD/v2.0">
+	<ListaAtivacaoBLMovel>
+		<Dados>
+			<OrigemRequisicao>OA0848</OrigemRequisicao>
+			<ListaOrdens>
+				<Ordem>
+					<NumeroContaFatura>string</NumeroContaFatura>
+					<NomePlano>string</NomePlano>
+					<NomeCampanha>string</NomeCampanha>
+					<NomeOferta>string</NomeOferta>
+					<PDV>string</PDV>
+					<ListaItensOrdem>
+						<ItemOrdem>
+							<DDD>3</DDD>
+							<OpcaoOiDados>string</OpcaoOiDados>
+							<MSISDN>string</MSISDN>
+							<OiChip>string</OiChip>
+						</ItemOrdem>
+					</ListaItensOrdem>
+				</Ordem>
+			</ListaOrdens>
+		</Dados>
+	</ListaAtivacaoBLMovel>
+</SiebelMessage>

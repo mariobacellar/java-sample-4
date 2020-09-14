@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SiebelMessage IntObjectName="" MessageId="" MessageType="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ListaConsultaOiChip.xsd">
+  <ListaConsultaOiChip>
+    <Dados OrigemRequisicao="">
+      <ListaNumero>
+        <Numero>
+          <Numero>Numero</Numero>
+        </Numero>
+      </ListaNumero>
+    </Dados>
+  </ListaConsultaOiChip>
+</SiebelMessage>

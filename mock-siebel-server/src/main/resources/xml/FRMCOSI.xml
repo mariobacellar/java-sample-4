@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SiebelMessage MessageId=""	MessageType="Integration Object" IntObjectName="FRMCOSI">
+	<ListaConsultaOrdemServico>
+		<Dados>
+			<ListaOrdens>
+				<Ordem>
+					<NumeroOS />
+				</Ordem>
+			</ListaOrdens>
+		</Dados>
+	</ListaConsultaOrdemServico>
+</SiebelMessage>

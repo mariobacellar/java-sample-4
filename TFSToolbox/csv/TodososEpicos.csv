@@ -1,0 +1,203 @@
+Id;WorkItemType;Title;Assigned To;State;Tags;
+1010;Task;CF;paulo.pimenta.filho;Active;null
+1064;Review;[TIM2657][CUT][Review];paulo.pimenta.filho;Active;null
+1753;Epic;Melhorias de Qualidade;Keubson Castro;Active;null
+1756;Feature;Melhorias de Qualidade;Keubson Castro;Active;null
+1761;Feature;Métricas de Build;Renato Valezin;Active;null
+1928;Task;[TIM2731] CUT - Implementação do client;arioston.j.junior;Active;null
+2097;Feature;[TIM2733][OAG] API de crédito especial;paulo.pimenta.filho;Active;null
+2098;Requirement;[TIM2733][OAG][API Credito Especial] API de contratação de crédito especial;paulo.pimenta.filho;Active;null
+2099;Task;[TIM2733][FD];rodolfo.leme.bertozo;Active;null
+2100;Task;[TIM2733][FD][Review];paulo.pimenta.filho;Active;null
+2101;Task;[TIM2733][Coding];rodolfo.leme.bertozo;Active;null
+2102;Task;[TIM2733][UT];rodolfo.leme.bertozo;Active;null
+2103;Task;[TIM2733][Coding][Review];paulo.pimenta.filho;Active;null
+2104;Task;[TIM2733][PTP];rodolfo.leme.bertozo;Active;null
+2105;Task;[TIM2733][PTP][Review];paulo.pimenta.filho;Active;null
+2106;Task;[TIM2733][PTE];paulo.pimenta.filho;Active;null
+2107;Requirement;[TIM2733][OAG] Delivery e Coordenação;paulo.pimenta.filho;Active;null
+2108;Task;[TIM2733][CF];rodolfo.leme.bertozo;Active;null
+2109;Task;[TIM2733][CF][Review];paulo.pimenta.filho;Active;null
+2110;Task;[TIM2733][Delivery];rodolfo.leme.bertozo;Active;null
+2111;Task;[TIM2733][Coordenação DEV];paulo.pimenta.filho;Active;null
+2120;Epic;[TIM2667][DM15002715] [Fase 2] Aprovisionamento na nova base do senha única;pedro.naressi;Active;null
+2145;Bug;API Log NodeJS - JWT;paulo.pimenta.filho;Active;null
+2152;Task;[2144] Criação da Estrutura no TFS;Renato Valezin;Active;null
+2279;Task;[2144] Merge TIM2522 (Lavorazioni);murilo.aniceto;Active;null
+2307;Feature;Melhorias nos Processos;pedro.naressi;Active;null
+2308;Feature;Melhoria nos indicadores de rendimento da equipe;jailson.pereira;Active;null
+2309;Feature;Migração SVN para Git;Darryl A. Sibeon;Active;null
+2310;Feature;Treinamentos e Evoluções;paulo.pimenta.filho;Active;null
+2320;Feature;Melhorias no Processo de Estimativa;paulo.pimenta.filho;Active;null
+2430;Task;[SCRPRD48493] FD;pedro.naressi;Active;null
+2623;Feature;[SCRPRD48469][Meu TIM][Meu Plano];thiago.barreto;Active;null
+2628;Requirement;Delivery e Coordenação;thiago.barreto;Active;null
+2632;Task;Coordenação DSV;paulo.pimenta.filho;Active;null
+2637;Requirement;[TIR#314014][DM16000549][Meu TIM][Meus Dados] Inibir a opção Olá, nome para admin nivel 10, 20 e 30;ygor.bandin.satiro;Active;null
+2638;Task;FD - Documentacao;ygor.bandin.satiro;Active;null
+2639;Task;FD - Peer Review;ygor.bandin.satiro;Active;null
+2640;Task;FD - Atualizacao de Peer Review;ygor.bandin.satiro;Active;null
+2641;Task;Coding - Implementação;ygor.bandin.satiro;Active;null
+2642;Task;Coding - Review;ygor.bandin.satiro;Active;null
+2645;Task;PTP - Documentação;ygor.bandin.satiro;Active;null
+2646;Task;PTP - Review;ygor.bandin.satiro;Active;null
+2647;Task;PTE - Execução;ygor.bandin.satiro;Active;null
+2648;Task;PTE - Review;ygor.bandin.satiro;Active;null
+3024;Feature;[Meu TIM] Meu Plano;ygor.bandin.satiro;Active;null
+3025;Requirement;Meu Plano - Troca de proxy;ygor.bandin.satiro;Active;null
+3027;Task;[Meu Plano] FD;arioston.j.junior;Active;null
+3028;Task;[Meu Plano] FD - Review;arioston.j.junior;Active;null
+3029;Task;[Meu Plano] TD;arioston.j.junior;Active;null
+3030;Task;[Meu Plano] TD - Review;arioston.j.junior;Active;null
+3031;Task;[Meu Plano] ATP;arioston.j.junior;Active;null
+3032;Task;[Meu Plano] ATP - Review;arioston.j.junior;Active;null
+3034;Task;[Meu Plano] CUT - Criação de proxy/connector;arioston.j.junior;Active;null
+3035;Task;[Meu Plano] CUT - Integração com o proxy/connector;arioston.j.junior;Active;null
+3036;Task;[Meu Plano] CUT - Unit Test;arioston.j.junior;Active;null
+3037;Task;[Meu Plano] ATE - Execução;arioston.j.junior;Active;null
+3038;Task;[Meu Plano] ATE - Suporte e Review;ygor.bandin.satiro;Active;null
+3039;Task;[Meu Plano] CF;arioston.j.junior;Active;null
+3040;Task;[Meu Plano] CF - Review;arioston.j.junior;Active;null
+3041;Task;[Meu Plano] PTP - Documentação;ygor.bandin.satiro;Active;null
+3042;Task;[Meu Plano] PTP - Review;ygor.bandin.satiro;Active;null
+3043;Task;[Meu Plano] PTE - Execução;ygor.bandin.satiro;Active;null
+3044;Task;[Meu Plano] PTE - Review e Suporte;ygor.bandin.satiro;Active;null
+3045;Feature;[Meu TIM] Delivery e Coordenação;ygor.bandin.satiro;Active;null
+3046;Requirement;Coordenação;ygor.bandin.satiro;Active;null
+3047;Task;Coordenação - DSV;ygor.bandin.satiro;Active;null
+3048;Task;Coordenação - TST;ygor.bandin.satiro;Active;null
+3049;Requirement;Delivery;ygor.bandin.satiro;Active;null
+3050;Task;Coding - Delivery;arioston.j.junior;Active;null
+3051;Task;Delivery for UAT;arioston.j.junior;Active;null
+3086;Task;[WEB0004] Estimativa - Desenvolvimento - EP;daniel.da.s.resende;Active;null
+3121;Task;[WEB0005] Estimativa - Desenvolvimento - EP;thiago.barreto;Active;null
+3352;Task;[WEB0010] Estimativa - Desenvolvimento - IA;Arthur R. Oliveira;Active;null
+3353;Task;[WEB0010] Estimativa - Desenvolvimento - IA Review;paulo.pimenta.filho;Active;null
+3424;Feature;[WEB0012] Criação de template TIM;fabiana.h.uchida;Active;null
+3544;Feature;[WEB0002][Portal_MeuTIM][PWEB e API];ygor.bandin.satiro;Active;null
+3545;Requirement;[WEB0002] Estimativa;ygor.bandin.satiro;Active;null
+3546;Task;[WEB0002] Estimativa - Equipe Desenvolvimento - IA;ygor.bandin.satiro;Active;null
+3547;Task;[WEB0002] Estimativa - Equipe Desenvolvimento - IA Review;Daniel São Pedro;Active;null
+3548;Task;[WEB0002] Estimativa - Equipe Desenvolvimento - FFPA;ygor.bandin.satiro;Active;null
+3551;Task;[WEB0002] Estimativa - Equipe Desenvolvimento - EP;ygor.bandin.satiro;Active;null
+3616;Task;[WEB0020] Estimativa - Equipe Desenvolvimento - IA;daniel.da.s.resende;Active;null
+3667;Epic;[WEB0026][TIR#305677][DMXXXXXXXX][OTP][HE][OAAM] Relatório de Analytics;daniel.da.s.resende;Active;null
+3808;Feature;[WEB0030][TIR#316106][Portal TIM Vendas] - Alteração no serviço de consulta de usuário pela URA;miguel.candeia.netto;Active;null
+3910;Feature;[TIM2724][PortalMeuTIM][Britney];Arthur R. Oliveira;Active;null
+4086;Requirement;[WEB0012] Criação de template TIM;fabiana.h.uchida;Active;null
+4258;Feature;[TIR#318382][DMXXXXXX][OAG - Group1] ajuste na API para recuperar o pdf de uma fatura informada no payload - URL Encode;miguel.candeia.netto;Active;null
+4298;Feature;[WEB0039] Meu_TIM;karolinny.a.silva;Active;null
+4687;Requirement;[WEB0002][Portal Meu TIM] Dashboard - Entrega 2;ygor.bandin.satiro;Active;null
+4703;Requirement;[WEB0002][API] Dashboard - Entrega 2;ygor.bandin.satiro;Active;null
+4715;Requirement;[WEB0002] Delivery e Coordenação;ygor.bandin.satiro;Active;null
+6418;Feature;[WEB0065][Novo Portal Meu TIM];fabiana.h.uchida;Active;null
+7175;Task;[Home] Coding - Lightboxes;Arthur R. Oliveira;Active;null
+7602;Task;[WEB0023] [Controle de Duplo Optin] Coding;gustavo.a.romero;Active;null
+7628;Feature;[WEB0023][OAM][Accesscontrol];daniel.da.s.resende;Active;null
+7643;Task;[WEB0023] [Controle de Duplo Optin] PTE - Bug Fixing;gustavo.a.romero;Active;null
+7648;Task;[WEB0023] Coordenação DSV;daniel.da.s.resende;Active;null
+7649;Task;[WEB0023] Coordenação TST;daniel.da.s.resende;Active;null
+7766;Task;[WEB0026] Coordenação DSV;daniel.da.s.resende;Active;null
+11769;Requirement;[WEB0114] Delivery e Coordenação;tassio.h.gouveia;Active;null
+11773;Task;[WEB0114] Coordenação DSV;tassio.h.gouveia;Active;null
+14317;Feature;[WEB0113];paulo.pimenta.filho;Active;null
+14474;Task;[WEB0113][Batch Carga Inclusão Perfil] Automatizar PTE;gustavo.a.romero;Active;null
+14475;Task;[WEB0113][Batch Carga Inclusão Perfil] Automatizar PTE Review;gustavo.a.romero;Active;null
+14544;Task;[WEB0113][Batch Vend Perfil Sargento] Automatizar PTE Review;gustavo.a.romero;Active;null
+14895;Bug;[SDN#327259][WEB0002][DM17001498][NodeJS] Erro na label 201710091920_Camada_Exposicao_API_DM17001498_TIR323509_B;ygor.bandin.satiro;Active;null
+14908;Task;[WEB0114][200 dias][OAG] Elegibilidade - Coding;luis.o.oliveira;Active;null
+14909;Task;[WEB0114][200 dias][OAG] Elegibilidade - PTE;luis.o.oliveira;Active;null
+14913;Task;[WEB0114][200 dias][OAG] Consulta de domínios - Criação de Escopo;allys.dantas;Active;null
+14915;Task;[WEB0114][200 dias][OAG] Consulta de domínios - Coding;luis.o.oliveira;Active;null
+15496;Feature;Migração para o VSTS;paulo.pimenta.filho;Active;null
+15504;Requirement;Melhorias no Processo de Estimativa;paulo.pimenta.filho;Active;null
+15505;Task;Melhorar Inventário da PE;paulo.pimenta.filho;Active;null
+15510;Task;Migrar do SVN para o GIT;fabiana.h.uchida;Active;null
+15512;Requirement;Treinamentos Internos;paulo.pimenta.filho;Active;null
+15516;Task;Melhorar o controle de status das IAs;paulo.pimenta.filho;Active;null
+15517;Task;Melhorar gerenciamento do status das SDNs;tassio.h.gouveia;Active;null
+15518;Task;Melhorar uso da ferramenta no lançamento de horas e status;paulo.pimenta.filho;Active;null
+15520;Task;Controlar e garantir o uso do share point;paulo.pimenta.filho;Active;null
+15522;Task;Analise project/alocação para identificar melhorias na produtividade;tassio.h.gouveia;Active;null
+15523;Task;Fazer analise de custo/beneficio em outros projetos/equipes;fabiana.h.uchida;Active;null
+15613;Task;Envio do email automático pelo VSTS;pedro.naressi;Active;null
+15614;Task;Entender com equipe de PMO sobre os indicadores;paulo.pimenta.filho;Active;null
+15615;Task;Analise project/alocação para identificar melhorias na produtividade;paulo.pimenta.filho;Active;null
+15617;Task;Automatizar o processo de entrega;pedro.naressi;Active;null
+15619;Requirement;Automação;thiago.barreto;Active;null
+15620;Task;Assessment de automação de tarefas/desenvolvimento/testes;thiago.barreto;Active;null
+15621;Requirement;Reconhecimento;jailson.pereira;Active;null
+15622;Task;Assessment de como reconhecer as pessoas e como medir as mais produtivas;jailson.pereira;Active;null
+15628;Task;Migração Ambiente da TIM - Analise de Custo;paulo.pimenta.filho;Active;null
+15630;Task;Plugins do TFS para substituir o pweb-util;ygor.bandin.satiro;Active;null
+16156;Task;[WEB0113][Batch Carga Inclusão Perfil] Automatizar PTE;gustavo.a.romero;Active;null
+16437;Task;[WEB0121][200 dias][OAG] Consulta Status Pedido - TS;luis.o.oliveira;Active;null
+16450;Task;[WEB0121][200 dias][OAG] Detalhes Pedido - Coding;luis.o.oliveira;Active;null
+16451;Task;[WEB0121][200 dias][OAG] Detalhes Pedido - PTE;luis.o.oliveira;Active;null
+17180;Task;[WEB0120][Portal GU] Gerenciamento de Perfil - PTE Bug Fixing;gustavo.a.romero;Active;null
+17189;Epic;[WEB0156][TIR#330968][OAM] Reconhecimento do Aparelho (finger print) no processo de autenticação;daniel.da.s.resende;Active;null
+17242;Task;[WEB0120] Suporte a Equipe;thiago.barreto;Active;null
+17243;Task;[WEB0120] Suporte a Equipe;gustavo.a.romero;Active;null
+17486;Feature;[WEB0146][TIR#329554];angelo.bernardes;Active;null
+17524;Task;[WEB0071] Unit Test;karolinny.a.silva;Active;null
+17529;Task;[WEB0071] Coordenação DSV;pedro.naressi;Active;null
+17558;Task;[WEB0072] Fluxos Alternativos - Destaque Education;anderson.renoir;Active;null
+17574;Task;[WEB0072] CF - Portal;anderson.renoir;Active;null
+17583;Task;[WEB0072] CUT - Novo parâmetro URL;karolinny.a.silva;Active;null
+19134;Epic;[WEB0176][TIR#334426][Britney][Fase 2] Substituição do serviço de Profiling e descontinuação da API GET /v2/packages/data/eligible;pedro.naressi;Active;null
+19226;Task;[WEB0143] Coodenação DSV;gustavo.a.romero;Active;null
+19227;Task;[WEB0143] Suporte equipe;gustavo.a.romero;Active;null
+19429;Epic;[WEB0184][TIR#334958][DM17001896] [Site TIM][Consulta Status Portabilidade] -Adequação de serviço e layout;ygor.bandin.satiro;Active;null
+20186;Bug;WEB0072.BUG006 - Botões para visualizar fatura não estão funcionando;Arthur R. Oliveira;Active;null
+20328;Feature;[WEB0163][Grupo Internet][Consulta de servicos ativos];gustavo.a.romero;Active;null
+20521;Task;Documento Funcional;Renato Nunes Moraes;Active;null
+20531;Task;Documento Funcional;Renato Nunes Moraes;Active;null
+20591;Task;Documento Funcional;rodolfo.leme.bertozo;Active;null
+20592;Task;Modelagem REST;fabricio.borgatto;Active;null
+21092;Task;UT_ValidacaoCaptcha;karolinny.a.silva;Active;WEB0178
+21095;Task;DSV_Simulador;allys.dantas;Active;WEB0178
+21114;Task;UT_WS_2;Arthur R. Oliveira;Active;WEB0115
+21131;Task;DSV_Review;fabiana.h.uchida;Active;WEB0005
+21138;Task;UT_WS;joelmir.leite.cruz;Active;WEB0005
+21145;Task;PTE_WS1;joelmir.leite.cruz;Active;WEB0005
+21150;Task;DSV_REGRAS;joelmir.leite.cruz;Active;WEB0005
+21164;Task;DSV_WS_2;allys.dantas;Active;WEB0203
+21450;Task;DSV_Review_3_TIM_Components;fabiana.h.uchida;Active;WEB0115
+22002;Epic;[WEB0215][INF#337455][Meu TIM][TIM] Levantamento de todos as aplicações que ainda utilizam Java Locator no Meu TIM e TIM;paulo.pimenta.filho;Active;null
+22631;Bug;Sistema apresenta mensagem nula quando a tag é friendlyDescription é excluida.;angelo.bernardes;Active;null
+22633;Bug;Sistema apresenta mensagem de nulo quando a tag friendlyDescription for excluida.;angelo.bernardes;Active;null
+22891;Task;CUT - WEM/DisplayView (adequação protótipo);anderson.renoir;Active;null
+23544;Epic;[WEB0241][TIR#340445][Meu TIM][Cancelamento Canais Texto] Meu TIM;thiago.barreto;Active;null
+23844;Requirement;[WEB0169][TIR#333355][DM17002174][Melhorias Contínuas][MEU TIM][Alterar Tipo de Conta] Utilizar CreateInterctionRest na geração de protocolo;thiago.barreto;Active;null
+25019;Epic;[WEB0262][TIR#342008] [Britney Fase2] Problemas de protótipo quebram layout do Box Progressão de Consumo;pedro.naressi;Active;null
+25288;Task;[WEB0139] [ Integração sistema gestão de atendimentos - REST SENHA GFA] FD;gustavo.a.romero;Active;null
+25319;Task;[WEB0139] [Novo Extrator de IMEIs F1] CF;enay.zuin.bispo;Active;null
+25353;Task;[WEB0139] [Adequações para Loja Própria e Revenda F2 - REST CONSULTA IMEI] FD;gustavo.a.romero;Active;null
+25379;Task;[WEB0139] [Adequações para Loja Própria e Revenda F2 - Portal GU] PTE - Review;thiago.barreto;Active;null
+25381;Task;[WEB0139] [Adequações para Loja Própria e Revenda F2 - Portal GU] CF;enay.zuin.bispo;Active;null
+25962;Epic;[CON0012][TIR#334958][DM17001896][Site Tim] Consulta Status Portabilidade - Adequação de serviço e layout;paulo.pimenta.filho;Active;null
+27509;Test Plan;WEB_VAS Team_Stories_SDN;william.shinji.assao;Active;null
+27512;Shared Steps;Logar no Portal Meu TIM;william.shinji.assao;Active;null
+28208;Epic;[WEB0287][TIR#345271][AcessControl] Autenticação para o netflix;daniel.da.s.resende;Active;null
+28531;Task;[WEB0139] [Adequações para Loja Própria e Revenda F2 - Portal GU] PTE;enay.zuin.bispo;Active;null
+29641;Epic;[WEB0295][TIR#347153][Britney - Envio de Protocolo] Inclusão do fluxo de enviar protocolo por email;Thiago S. Batista;Active;null
+30010;Requirement;[WEB0297] [WSO2] Tripla convivência Validação JWT;Zubelli, Fabricio S.;Active;null
+30106;Feature;[WEB0200][TIR#336192][DM7001901][Meu TIM] Personalização da home atraves do reconhecimento por MSISDN;EVELYN S L DA SILVA;Active;null
+30303;Task;Coding;e.de.azevedo.filho;Active;null
+30355;Test Plan;WEB_VAS Team_Stories_WEB_VAS;silvio.r.leitao;Active;null
+30608;Epic;[WEB0311][TIR#347125][DM18000544][Branca de Neve] Identificação do cliente pelo OTP;daniel.da.s.resende;Active;null
+30609;Bug;WEB0299.BUG003 - Erro na disposição das labels no fluxo ZeroRating;anderson.renoir;Active;null
+30946;Epic;[WEB0320][TIR#XXXXXX] WhatsApp Extra;paulo.pimenta.filho;Active;null
+31378;Epic;[CON0017][TIR#347125][DM18000544][Branca de Neve] Identificação do cliente pelo OTP;paulo.pimenta.filho;Active;null
+32837;Feature;[WEB0295][Britney - Fase 2];Thiago S. Batista;Active;null
+32872;Task;[WEB0295] ATP - API;karolinny.a.silva;Active;null
+32875;Task;[WEB0295] ATE - API;karolinny.a.silva;Active;null
+32885;Requirement;[WEB0295] Delivery e Coordenação;Thiago S. Batista;Active;null
+32891;Task;[WEB0295]  Coordenação DSV - Semana 2;Thiago S. Batista;Active;null
+32946;Feature;[WEB0311][Branca de neve][AccessControl];daniel.da.s.resende;Active;null
+32947;Requirement;[WEB0311] Autenticacao;daniel.da.s.resende;Active;null
+32955;Task;[WEB0311] [Branca de neve] Coding - OAAM;claudivan.a.moreira;Active;null
+32961;Task;[WEB0311] [Branca de neve] PTP;william.shinji.assao;Active;null
+33054;Task;[WEB0241] FD;e.de.azevedo.filho;Active;null
+33603;Epic;[WEB0339][TFS#113588][Projeto 300 Dias][OAG] Criação de API para validação de estoque do SIMCARD;allys.dantas;Active;null
+238

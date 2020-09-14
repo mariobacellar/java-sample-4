@@ -1,0 +1,13 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>Codigo</Codigo>
+      <Mensagem>Mensagem</Mensagem>
+      <ListaDadosDados>
+        <Dados>
+          <IdContaFatura>IdContaFatura</IdContaFatura>
+        </Dados>
+      </ListaDadosDados>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

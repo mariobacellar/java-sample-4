@@ -1,0 +1,110 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCConO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>0</Codigo> 
+			<Mensagem /> 
+			<ListaDados>
+				<Dados>
+					<ListaContatos>
+						<Contato>
+							<DataNascimento>10/10/1990 00:00:00</DataNascimento> 
+							<Comentarios /> 
+							<EnderecoEmail>testeemail@gmail.com</EnderecoEmail> 
+							<Sexo>M</Sexo> 
+							<EstadoCivil>Casado</EstadoCivil> 
+							<NomeMae>MARINA SEVERINA MEDEIROS</NomeMae> 
+							<NaturalidadeCliente>BRASILEIRO</NaturalidadeCliente> 
+							<Nome>MASSA TRG ECHANNEL 2018</Nome> 
+							<OcupacaoPrincipal>Assalariado</OcupacaoPrincipal> 
+							<OcupacaoSecundaria /> 
+							<StatusRelacionamentoMovel>Contact Center</StatusRelacionamentoMovel> 
+							<Profissao>ANALISTA DE SISTEMAS</Profissao> 
+							<FaixaRendaMensal>5 - De R$ 1.001 a R$ 1.250</FaixaRendaMensal> 
+							<DataInicioResidencia>10/10/2000 00:00:00</DataInicioResidencia> 
+							<TipoResidenciaCliente>PrÃ³pria</TipoResidenciaCliente> 
+							<IdUsuario>JOSE MARIA JATOBA</IdUsuario> 
+							<IndicadordocumentoPendente>Y</IndicadordocumentoPendente> 
+							<IndicadorProspect>N</IndicadorProspect> 
+							<CategoriaCliente>N</CategoriaCliente> 
+							<PaginaWeb /> 
+							<LembreteSenha /> 
+							<CodigoPontoVenda>0001001624</CodigoPontoVenda> 
+							<NomeNaRedeSocialPrincipal>MASSA TRG ECHANNEL 2018</NomeNaRedeSocialPrincipal> 
+							<QuantidadeDependente>1</QuantidadeDependente> 
+							<GrauEscolaridade>Superior Completo</GrauEscolaridade> 
+							<EmpregadorCliente /> 
+							<CargoProfissional /> 
+							<EmpresaOperadoraOi /> 
+							<CategoriaCliente>N</CategoriaCliente> 
+							<IdiomaCliente /> 
+							<HorarioContato /> 
+							<FormaContatoPreferencial /> 
+							<IndicadorChamadaCelular /> 
+							<IndicadorChamadaTelefoneResidencial /> 
+							<IndicadorChamadaTelefoneComercial /> 
+							<IndicadorEnvioEmail>N</IndicadorEnvioEmail> 
+							<IndicadorEnvioFax>N</IndicadorEnvioFax> 
+							<IndicadorEnvioCarta>N</IndicadorEnvioCarta> 
+						</Contato>
+					</ListaContatos>
+					<ListaDocumentos>
+						<Documento>
+							<TipoDocumentoPrincipal>Carteira de Identidade</TipoDocumentoPrincipal> 
+							<NumeroDocumento>123456789</NumeroDocumento> 
+							<OrgaoExpedidorDocumentoSecundario>SDS</OrgaoExpedidorDocumentoSecundario> 
+						</Documento>
+						<Documento>
+							<TipoDocumentoPrincipal>CPF</TipoDocumentoPrincipal> 
+							<NumeroDocumento>73603825721</NumeroDocumento> 
+						</Documento>
+					</ListaDocumentos>
+					<ListaTelefones>
+						<Telefone>
+							<Tipo>Contato</Tipo> 
+							<Numero>+552120174341</Numero> 
+						</Telefone>
+						<Telefone>
+							<Tipo>Comercial</Tipo> 
+							<Numero>+552120174341</Numero> 
+						</Telefone>
+						<Telefone>
+							<Tipo>Residencial</Tipo> 
+							<Numero>+552120174341</Numero> 
+						</Telefone>
+					</ListaTelefones>
+					<ListaEnderecos>
+						<Endereco>
+							<TipoLogradouro>PC</TipoLogradouro> 
+							<Logradouro>PIO X</Logradouro> 
+							<Numero>118</Numero> 
+							<CEP>20091040</CEP> 
+							<Bairro>CENTRO</Bairro> 
+							<Cidade>RIO DE JANEIRO</Cidade> 
+							<Estado>RJ</Estado> 
+							<EnderecoComposto>PC PIO X, 118 - CENTRO 20091040 RIO DE JANEIRO - RJ</EnderecoComposto> 
+							<IndicativoVerificacao>Y</IndicativoVerificacao> 
+							<Referencia /> 
+							<CodigoLocalidade>5000</CodigoLocalidade> 
+							<CodigoLogradouro>20091040</CodigoLogradouro> 
+							<Localidade /> 
+							<Aglomerado /> 
+							<CodigoAglomerado /> 
+							<NumeroAglomerado /> 
+							<ListComplementos /> 
+						</Endereco>
+					</ListaEnderecos>
+					<ListaContas>
+						<Conta>
+							<NumeroConta>5090399991273</NumeroConta> 
+							<Tipificador>Cliente</Tipificador> 
+							<IndicadorFraude /> 
+							<IdSegmentacao>Residencial 5</IdSegmentacao> 
+							<IndicadorVitimaFraude /> 
+							<IndicadorBloqueioPorInadimplencia>N</IndicadorBloqueioPorInadimplencia> 
+						</Conta>
+					</ListaContas>
+				</Dados>
+			</ListaDados>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage>

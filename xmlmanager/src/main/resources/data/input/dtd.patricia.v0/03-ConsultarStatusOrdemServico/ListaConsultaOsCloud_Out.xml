@@ -1,0 +1,19 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>Codigo</Codigo>
+      <Mensagem>Mensagem</Mensagem>
+      <ListaDadosDados>
+        <Dados>
+          <Inadimplencia>Inadimplencia</Inadimplencia>
+          <BloqueioPorInadimplencia>BloqueioPorInadimplencia</BloqueioPorInadimplencia>
+          <BloqueioAPedido>BloqueioAPedido</BloqueioAPedido>
+          <Fraude>Fraude</Fraude>
+          <OSEmAberto>OSEmAberto</OSEmAberto>
+          <PacoteDados>PacoteDados</PacoteDados>
+          <Dependentes>Dependentes</Dependentes>
+        </Dados>
+      </ListaDadosDados>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

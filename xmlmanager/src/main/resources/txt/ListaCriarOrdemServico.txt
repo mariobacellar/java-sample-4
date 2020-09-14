@@ -1,0 +1,19 @@
+9MessageId=""#MessageType="Integration Object"#IntObjectName="FRMPRetO"
+SiebelMessage;ListaCriarOrdemServico
+SiebelMessage/ListaCriarOrdemServico;Dados
+SiebelMessage/ListaCriarOrdemServico/Dados;ListaOrdens
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens;Ordem
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;NumeroContaFatura
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;NomePlano
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;NomeCampanha
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;NomeOferta
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;VelocidadeVelox
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;PDV
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem;ListaItensOrdem
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem;ItemOrdem
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;DDD
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;OpcaoOiDados
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;MSISDN
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;IMEI
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;OiChip
+SiebelMessage/ListaCriarOrdemServico/Dados/ListaOrdens/Ordem/ListaItensOrdem/ItemOrdem;ModeloAparelho

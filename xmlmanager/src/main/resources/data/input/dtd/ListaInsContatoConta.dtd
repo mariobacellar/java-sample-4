@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 1994, Siebel Systems, L.P., All rights reserved. -->
+<!-- Siebel DTD Generation -->
+<!-- Shared Element List.  These elements are guarenteed -->
+<!-- to have the same datatype, length, precision, and scale.-->
+<!ELEMENT SiebelMessage (ListaInsContatoConta?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaInsContatoConta (Dados+) >
+<!ELEMENT Dados(ListaDocumentos?, ListaTelefones?, ListaContas?, ListaContatos?, ListaEnderecos?)>
+<!ATTLIST  OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaDocumentos (Documento*) >
+<!ELEMENT Documento (TipoDocumentoPrincipal?, NumeroDocumento?, OrgaoExpedidorDocumentoSecundario?)>
+<!ELEMENT TipoDocumentoPrincipal (#PCDATA) >
+<!ELEMENT NumeroDocumento (#PCDATA) >
+<!ELEMENT OrgaoExpedidorDocumentoSecundario (#PCDATA) >
+<!ELEMENT ListaTelefones (Telefone*) >
+<!ELEMENT Telefone (Tipo?, Numero?)>
+<!ELEMENT Tipo (#PCDATA) >
+<!ELEMENT Numero (#PCDATA) >
+<!ELEMENT ListaContas (Conta*) >
+<!ELEMENT Conta (Tipificador?, IndicadorFraude?, IdSegmentacao?, IndicadorVitimaFraude?, IndicadorBloqueioPorInadimplencia?)>
+<!ELEMENT Tipificador (#PCDATA) >
+<!ELEMENT IndicadorFraude (#PCDATA) >
+<!ELEMENT IdSegmentacao (#PCDATA) >
+<!ELEMENT IndicadorVitimaFraude (#PCDATA) >
+<!ELEMENT IndicadorBloqueioPorInadimplencia (#PCDATA) >
+<!ELEMENT ListaContatos (Contato*) >
+<!ELEMENT Contato (DataNascimento?,
+			Comentarios?,
+			EnderecoEmail?,
+			Sexo?,
+			EstadoCivil?,
+			NomeMae?,
+			NaturalidadeCliente?,
+			Nome?,
+			OcupacaoPrincipal?,
+			OcupacaoSecundaria?,
+			StatusRelacionamentoMovel?,
+			Profissao?,
+			FaixaRendaMensal?,
+			DataInicioResidencia?,
+			TipoResidenciaCliente?,
+			IdUsuario?,
+			IndicadordocumentoPendente?,
+			IndicadorProspect?,
+			CategoriaCliente?,
+			PaginaWeb?,
+			LembreteSenha?,
+			CodigoPontoVenda?,
+			NomeNaRedeSocialPrincipal?,
+			QuantidadeDependente?,
+			GrauEscolaridade?,
+			EmpregadorCliente?,
+			EmpresaOperadoraOi?,
+			CargoProfissional?,
+			IndicadorColaboradorOi?,
+			IdiomaCliente?,
+			HorarioContato?,
+			FormaContatoPreferencial?,
+			IndicadorChamadaCelular?,
+			IndicadorChamadaTelefoneResidencial?,
+			IndicadorChamadaTelefoneComercial?,
+			IndicadorEnvioEmail?,
+			IndicadorEnvioFax?,
+			IndicadorEnvioCarta?)>
+<!ELEMENT DataNascimento (#PCDATA) >
+<!ELEMENT Comentarios (#PCDATA) >
+<!ELEMENT EnderecoEmail (#PCDATA) >
+<!ELEMENT Sexo (#PCDATA) >
+<!ELEMENT EstadoCivil (#PCDATA) >
+<!ELEMENT NomeMae (#PCDATA) >
+<!ELEMENT NaturalidadeCliente (#PCDATA) >
+<!ELEMENT Nome (#PCDATA) >
+<!ELEMENT OcupacaoPrincipal (#PCDATA) >
+<!ELEMENT OcupacaoSecundaria (#PCDATA) >
+<!ELEMENT StatusRelacionamentoMovel (#PCDATA) >
+<!ELEMENT Profissao (#PCDATA) >
+<!ELEMENT FaixaRendaMensal (#PCDATA) >
+<!ELEMENT DataInicioResidencia (#PCDATA) >
+<!ELEMENT TipoResidenciaCliente (#PCDATA) >
+<!ELEMENT IdUsuario (#PCDATA) >
+<!ELEMENT IndicadordocumentoPendente (#PCDATA) >
+<!ELEMENT IndicadorProspect (#PCDATA) >
+<!ELEMENT CategoriaCliente (#PCDATA) >
+<!ELEMENT PaginaWeb (#PCDATA) >
+<!ELEMENT LembreteSenha (#PCDATA) >
+<!ELEMENT CodigoPontoVenda (#PCDATA) >
+<!ELEMENT NomeNaRedeSocialPrincipal (#PCDATA) >
+<!ELEMENT QuantidadeDependente (#PCDATA) >
+<!ELEMENT GrauEscolaridade (#PCDATA) >
+<!ELEMENT EmpregadorCliente (#PCDATA) >
+<!ELEMENT EmpresaOperadoraOi (#PCDATA) >
+<!ELEMENT CargoProfissional (#PCDATA) >
+<!ELEMENT IndicadorColaboradorOi (#PCDATA) >
+<!ELEMENT IdiomaCliente (#PCDATA) >
+<!ELEMENT HorarioContato (#PCDATA) >
+<!ELEMENT FormaContatoPreferencial (#PCDATA) >
+<!ELEMENT IndicadorChamadaCelular (#PCDATA) >
+<!ELEMENT IndicadorChamadaTelefoneResidencial (#PCDATA) >
+<!ELEMENT IndicadorChamadaTelefoneComercial (#PCDATA) >
+<!ELEMENT IndicadorEnvioEmail (#PCDATA) >
+<!ELEMENT IndicadorEnvioFax (#PCDATA) >
+<!ELEMENT IndicadorEnvioCarta (#PCDATA) >
+<!ELEMENT ListaEnderecos (Endereco?,
+                    ListaComplementos?) >
+<!ELEMENT Endereco (CEP?,
+			Estado?,
+			Cidade?,
+			Bairro?,
+			CodigoLogradouro?,
+			NomeLogradouro?,
+			TipoLogradouro?,
+			Numero?,
+			Referencia?,
+			Origem?,
+			CodigoLocalidade?,
+			Localidade?,
+			CodigoOperadora?,
+			Operadora?,
+			NumeroAglomerado?,
+			CodigoAglomerado?,
+			Aglomerado?)>
+<!ELEMENT CEP (#PCDATA) >
+<!ELEMENT Estado (#PCDATA) >
+<!ELEMENT Cidade (#PCDATA) >
+<!ELEMENT Bairro (#PCDATA) >
+<!ELEMENT CodigoLogradouro (#PCDATA) >
+<!ELEMENT NomeLogradouro (#PCDATA) >
+<!ELEMENT TipoLogradouro (#PCDATA) >
+<!ELEMENT Numero (#PCDATA) >
+<!ELEMENT Referencia (#PCDATA) >
+<!ELEMENT Origem (#PCDATA) >
+<!ELEMENT CodigoLocalidade (#PCDATA) >
+<!ELEMENT Localidade (#PCDATA) >
+<!ELEMENT CodigoOperadora (#PCDATA) >
+<!ELEMENT Operadora (#PCDATA) >
+<!ELEMENT NumeroAglomerado (#PCDATA) >
+<!ELEMENT CodigoAglomerado (#PCDATA) >
+<!ELEMENT Aglomerado (#PCDATA) >
+<!ELEMENT ListaComplementos (Complemento*) >
+<!ELEMENT Complemento (Numero?, TipoComp?)>
+<!ATTLIST Complemento Sequencial CDATA #IMPLIED >
+<!ELEMENT TipoComp (#PCDATA) >
+<!ELEMENT Numero (#PCDATA) >

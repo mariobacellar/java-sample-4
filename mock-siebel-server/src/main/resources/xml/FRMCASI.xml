@@ -1,0 +1,15 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASI">
+	<ListaConsultaMeioDeAcesso>
+		<Dados>
+			<OrigemRequisicao/>
+			<ListaMeioDeAcesso>
+				<MeioDeAcesso>
+					<NumeroContaFatura>2626273094</NumeroContaFatura>
+					<DDD>21</DDD>
+					<Designacao>Varejo</Designacao>
+					<Classificacao>Normal</Classificacao>
+				</MeioDeAcesso>
+			</ListaMeioDeAcesso>
+		</Dados>
+	</ListaConsultaMeioDeAcesso>
+</SiebelMessage>

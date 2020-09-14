@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SiebelMessage SYSTEM "LIstaRetorno.dtd" >
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>Codigo</Codigo>
+      <Mensagem>Mensagem</Mensagem>
+      <ListaMeioDeAcesso>
+        <MeioDeAcesso>
+          <MSISDN>MSISDN</MSISDN>
+        </MeioDeAcesso>
+      </ListaMeioDeAcesso>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

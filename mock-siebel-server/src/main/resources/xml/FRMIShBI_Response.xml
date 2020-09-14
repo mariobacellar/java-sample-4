@@ -1,0 +1,10 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMIShBCO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>0</Codigo>
+			<Mensagem>TUDO_CERTO</Mensagem>
+			<IdBundle>1010110</IdBundle>
+			<IdUnico>999999</IdUnico>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage> 

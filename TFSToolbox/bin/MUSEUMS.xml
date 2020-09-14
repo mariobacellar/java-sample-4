@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MUSEUMS>
+  <MUSEUM>
+    <NAME>Reina Sofia Museum</NAME>
+    <CITY>Madrid</CITY>
+  </MUSEUM>
+  <MUSEUM>
+    <NAME>Louvre Museum</NAME>
+    <CITY>Paris</CITY>
+  </MUSEUM>
+</MUSEUMS>

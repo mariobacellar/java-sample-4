@@ -1,0 +1,8 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMPRetO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>-1</Codigo>
+			<Mensagem>EnderecoEmail;Nome;NumeroDocumento;Numero(Contato)</Mensagem>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage>

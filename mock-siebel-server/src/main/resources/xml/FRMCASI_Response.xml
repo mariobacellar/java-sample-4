@@ -1,0 +1,25 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCASO">
+   <ListaRetorno>
+      <Retorno>
+         <Codigo>0</Codigo>
+         <Mensagem/>
+         <ListaMeioDeAcesso>
+            <MeioDeAcesso>
+               <MSISDN>21911150884</MSISDN>
+            </MeioDeAcesso>
+            <MeioDeAcesso>
+               <MSISDN>21911150885</MSISDN>
+            </MeioDeAcesso>
+            <MeioDeAcesso>
+               <MSISDN>21911150886</MSISDN>
+            </MeioDeAcesso>
+            <MeioDeAcesso>
+               <MSISDN>21911150887</MSISDN>
+            </MeioDeAcesso>
+            <MeioDeAcesso>
+               <MSISDN>21911150888</MSISDN>
+            </MeioDeAcesso>
+         </ListaMeioDeAcesso>
+      </Retorno>
+   </ListaRetorno>
+</SiebelMessage>

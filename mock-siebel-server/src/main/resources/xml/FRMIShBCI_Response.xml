@@ -1,0 +1,9 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>0</Codigo>
+      <Mensagem>ok</Mensagem>
+      <IdBundle>909909</IdBundle>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

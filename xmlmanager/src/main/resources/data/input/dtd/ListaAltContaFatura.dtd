@@ -1,0 +1,72 @@
+<!ELEMENT SiebelMessage (ListaAltContaFatura?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaAltContaFatura (Dados+) >
+<!ELEMENT Dados (ListaDocumentosDocumento?, ListaEnderecosEndereco?, ListaFaturasContaFatura?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaDocumentosDocumento (Documento*) >
+<!ELEMENT Documento (TipoDocumento?, NumeroDocumento?)>
+<!ELEMENT TipoDocumento (#PCDATA) >
+<!ELEMENT NumeroDocumento (#PCDATA) >
+<!ELEMENT ListaEnderecosEndereco (Endereco*) >
+<!ELEMENT Endereco (CEP?,
+	Estado?,
+	Cidade?,
+	Bairro?,
+	CodigoLogradouro?,
+	NomeLogradouro?,
+	TipoLogradouro?,
+	Numero?,
+	Referencia?,
+	Origem?,
+	CodigoLocalidade?,
+	Localidade?,
+	CodigoOperadora?,
+	Operadora?,
+	NumeroAglomerado?,
+	CodigoAglomerado?,
+	Aglomerado?,
+	ListaComplementosComplemento?)>
+<!ELEMENT CEP (#PCDATA) >
+<!ELEMENT Estado (#PCDATA) >
+<!ELEMENT Cidade (#PCDATA) >
+<!ELEMENT Bairro (#PCDATA) >
+<!ELEMENT CodigoLogradouro (#PCDATA) >
+<!ELEMENT NomeLogradouro (#PCDATA) >
+<!ELEMENT TipoLogradouro (#PCDATA) >
+<!ELEMENT Referencia (#PCDATA) >
+<!ELEMENT Origem (#PCDATA) >
+<!ELEMENT CodigoLocalidade (#PCDATA) >
+<!ELEMENT Localidade (#PCDATA) >
+<!ELEMENT CodigoOperadora (#PCDATA) >
+<!ELEMENT Operadora (#PCDATA) >
+<!ELEMENT NumeroAglomerado (#PCDATA) >
+<!ELEMENT CodigoAglomerado (#PCDATA) >
+<!ELEMENT Aglomerado (#PCDATA) >
+<!ELEMENT ListaFaturasContaFatura (ContaFatura*) >
+<!ELEMENT ContaFatura (NumeroConta?,
+	Nome?,
+	FormatoFatura?,
+	CicloFaturamento?,
+	EstadoContaFatura?,
+	DebitoProgramadoPaggo?,
+	TipoCobranca?,
+	Numero?,
+	ListaTelefonesTelefone?)>
+<!ELEMENT NumeroConta (#PCDATA) >
+<!ELEMENT Nome (#PCDATA) >
+<!ELEMENT FormatoFatura (#PCDATA) >
+<!ELEMENT CicloFaturamento (#PCDATA) >
+<!ELEMENT EstadoContaFatura (#PCDATA) >
+<!ELEMENT DebitoProgramadoPaggo (#PCDATA) >
+<!ELEMENT TipoCobranca (#PCDATA) >
+<!ELEMENT Numero (#PCDATA) >
+<!ELEMENT ListaComplementosComplemento (Complemento*) >
+<!ELEMENT Complemento (Tipo?, Numero?)>
+<!ATTLIST Complemento Sequencial CDATA #IMPLIED >
+<!ELEMENT Tipo (#PCDATA) >
+<!ELEMENT ListaTelefonesTelefone (Telefone*) >
+<!ELEMENT Telefone (TipoTel?, Numero?)>
+<!ELEMENT TipoTel (#PCDATA) >
+<!ELEMENT Numero (#PCDATA) >

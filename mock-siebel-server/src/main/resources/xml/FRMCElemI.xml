@@ -1,0 +1,11 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCElemI">
+	<ListaConsultaElemento>
+		<Dados>
+			<OrigemRequisicao></OrigemRequisicao>
+			<ListaMeioAcesso>
+				<MSISDN></MSISDN>
+				<Acao></Acao>
+			</ListaMeioAcesso>		
+		</Dados>	
+	</ListaConsultaElemento>	
+</SiebelMessage>

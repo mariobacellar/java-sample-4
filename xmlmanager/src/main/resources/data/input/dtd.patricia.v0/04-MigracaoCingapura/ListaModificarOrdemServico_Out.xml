@@ -1,0 +1,14 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>Codigo</Codigo>
+      <Mensagem>Mensagem</Mensagem>
+      <IdBundle>IdBundle</IdBundle>
+      <ListaItensOrdemItemOrdem>
+        <ItemOrdem>
+          <MSISDN>MSISDN</MSISDN>
+        </ItemOrdem>
+      </ListaItensOrdemItemOrdem>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="" elementFormDefault="qualified">
+	<xsd:element name="SiebelMessage">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ListaCriarOrdemServico" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Dados" minOccurs="0">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="ListaOrdens" minOccurs="0">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="Ordem" minOccurs="0">
+														<xsd:complexType>
+															<xsd:sequence>
+																<xsd:element name="NumeroContaFatura"
+																	minOccurs="0" type="xsd:string" />
+																<xsd:element name="NomePlano" minOccurs="0"
+																	type="xsd:string" />
+																<xsd:element name="NomeCampanha"
+																	minOccurs="0" type="xsd:string" />
+																<xsd:element name="NomeOferta" minOccurs="0"
+																	type="xsd:string" />
+																<xsd:element name="PDV" minOccurs="0"
+																	type="xsd:string" />
+																<xsd:element name="ListaItensOrdem"
+																	minOccurs="0">
+																	<xsd:complexType>
+																		<xsd:sequence>
+																			<xsd:element name="ItemOrdem"
+																				minOccurs="0">
+																				<xsd:complexType>
+																					<xsd:sequence>
+																						<xsd:element name="DDD" minOccurs="0"
+																							type="xsd:string" />
+																						<xsd:element name="OpcaoOiDados"
+																							minOccurs="0" type="xsd:string" />
+																						<xsd:element name="MSISDN"
+																							minOccurs="0" type="xsd:string" />
+																						<xsd:element name="IMEI" minOccurs="0"
+																							type="xsd:string" />
+																						<xsd:element name="OiChip"
+																							minOccurs="0" type="xsd:string" />
+																						<xsd:element name="ModeloAparelho"
+																							minOccurs="0" type="xsd:string" />
+																					</xsd:sequence>
+																				</xsd:complexType>
+																			</xsd:element>
+																		</xsd:sequence>
+																	</xsd:complexType>
+																</xsd:element>
+															</xsd:sequence>
+														</xsd:complexType>
+													</xsd:element>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="MessageId" type="xsd:string"
+				use="required" />
+			<xsd:attribute name="MessageType" type="xsd:string"
+				use="required" />
+			<xsd:attribute name="IntObjectName"
+				type="xsd:normalizedString" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,23 @@
+<!ELEMENT SiebelMessage (ListaCriarOrdemServico?) >
+<!ATTLIST SiebelMessage MessageId 		CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType 	CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName	CDATA #IMPLIED>
+<!ELEMENT ListaCriarOrdemServico (Dados+) >
+<!ELEMENT Dados (ListaOrdensOrdem?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaOrdensOrdem (Ordem*) >
+<!ELEMENT Ordem (NumeroContaFatura?, NomePlano?, NomeCampanha?, NomeOferta?, NumeroFixoConvergente?, VelocidadeVelox?, PDV?, NumeroContratoTV?, ListaItensOrdemItemOrdem?, ListaProdutosTVProdutosTV?)>
+<!ELEMENT ListaItensOrdemItemOrdem (ItemOrdem*) >
+<!ELEMENT ItemOrdem (DDD?)>
+<!ELEMENT ListaProdutosTVProdutosTV (ProdutosTV*) >
+<!ELEMENT ProdutosTV (NomeProdPrincOiTV?)>
+<!ELEMENT NumeroContaFatura 	(#PCDATA) >
+<!ELEMENT NomePlano 			(#PCDATA) >
+<!ELEMENT NomeCampanha 			(#PCDATA) >
+<!ELEMENT NomeOferta 			(#PCDATA) >
+<!ELEMENT NumeroFixoConvergente (#PCDATA) >
+<!ELEMENT VelocidadeVelox 		(#PCDATA) >
+<!ELEMENT PDV 					(#PCDATA) >
+<!ELEMENT NumeroContratoTV 		(#PCDATA) >
+<!ELEMENT DDD 					(#PCDATA) >
+<!ELEMENT NomeProdPrincOiTV 	(#PCDATA) >

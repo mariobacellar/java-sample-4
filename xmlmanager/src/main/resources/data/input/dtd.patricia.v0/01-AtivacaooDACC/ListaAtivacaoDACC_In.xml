@@ -1,0 +1,25 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaAtivacaoDACC>
+    <Dados OrigemRequisicao="">
+      <ListaDocumentosDocumento>
+        <Documento>
+          <TipoDocumento>TipoDocumento</TipoDocumento>
+          <NumeroDocumento>NumeroDocumento</NumeroDocumento>
+        </Documento>
+      </ListaDocumentosDocumento>
+      <ListaFaturasContaFatura>
+        <ContaFatura>
+          <NumeroConta>NumeroConta</NumeroConta>
+          <TipoCobranca>TipoCobranca</TipoCobranca>
+          <CodigoBanco>CodigoBanco</CodigoBanco>
+          <CodigoAgencia>CodigoAgencia</CodigoAgencia>
+          <ContaCorrente>ContaCorrente</ContaCorrente>
+          <PDV>PDV</PDV>
+          <LoginVendedor>LoginVendedor</LoginVendedor>
+          <NomeBanco>NomeBanco</NomeBanco>
+          <NumeroCartaoCredito>NumeroCartaoCredito</NumeroCartaoCredito>
+        </ContaFatura>
+      </ListaFaturasContaFatura>
+    </Dados>
+  </ListaAtivacaoDACC>
+</SiebelMessage>

@@ -1,0 +1,22 @@
+<!ELEMENT SiebelMessage (ListaAtivacaoDACC?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaAtivacaoDACC (Dados+) >
+<!ELEMENT Dados (ListaDocumentosDocumento?, ListaFaturasContaFatura?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaDocumentosDocumento (Documento*) >
+<!ELEMENT Documento (TipoDocumento?, NumeroDocumento?)>
+<!ELEMENT ListaFaturasContaFatura (ContaFatura*) >
+<!ELEMENT ContaFatura (NumeroConta?, TipoCobranca?, CodigoBanco?, CodigoAgencia?, ContaCorrente?, PDV?, LoginVendedor?, NomeBanco?, NumeroCartaoCredito?)>
+<!ELEMENT NumeroConta 			(#PCDATA) >
+<!ELEMENT TipoCobranca 			(#PCDATA) >
+<!ELEMENT CodigoBanco 			(#PCDATA) >
+<!ELEMENT CodigoAgencia 		(#PCDATA) >
+<!ELEMENT ContaCorrente 		(#PCDATA) >
+<!ELEMENT PDV 					(#PCDATA) >
+<!ELEMENT LoginVendedor 		(#PCDATA) >
+<!ELEMENT NomeBanco 			(#PCDATA) >
+<!ELEMENT NumeroCartaoCredito	(#PCDATA) >
+<!ELEMENT TipoDocumento 		(#PCDATA) >
+<!ELEMENT NumeroDocumento 		(#PCDATA) >

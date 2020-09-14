@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <xs:element name="SiebelMessage">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="ListaCriarOrdemServico">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Dados">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="ListaOrdensOrdem">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="Ordem">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="NumeroContaFatura" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="NomePlano" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="NomeCampanha" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="NomeOferta" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="NumeroFixoConvergente" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="VelocidadeVelox" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="PDV" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="NumeroContratoTV" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="ListaItensOrdemItemOrdem">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="ItemOrdem">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="DDD" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                                   <xs:element name="ListaProdutosTVProdutosTV">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="ProdutosTV">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="NomeProdPrincOiTV" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="OrigemRequisicao" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="IntObjectName" type="xs:string"></xs:attribute>
+                     <xs:attribute name="MessageId" type="xs:string"></xs:attribute>
+                     <xs:attribute name="MessageType" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

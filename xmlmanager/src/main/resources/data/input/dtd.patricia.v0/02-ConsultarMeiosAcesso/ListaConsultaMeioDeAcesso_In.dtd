@@ -1,0 +1,13 @@
+<!ELEMENT SiebelMessage (ListaConsultaMeioDeAcesso?) >
+<!ATTLIST SiebelMessage MessageId 		CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType 	CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName	CDATA #IMPLIED>
+<!ELEMENT ListaConsultaMeioDeAcesso (Dados+) >
+<!ELEMENT Dados (ListaMeioDeAcessoMeioDeAcesso?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaMeioDeAcessoMeioDeAcesso (MeioDeAcesso*) >
+<!ELEMENT MeioDeAcesso (NumeroContaFatura?, DDD?, Designacao?, Classificacao?)>
+<!ELEMENT NumeroContaFatura (#PCDATA) >
+<!ELEMENT DDD 				(#PCDATA) >
+<!ELEMENT Designacao 		(#PCDATA) >
+<!ELEMENT Classificacao 	(#PCDATA) >

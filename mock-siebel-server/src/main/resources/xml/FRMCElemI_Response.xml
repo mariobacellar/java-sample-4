@@ -1,0 +1,14 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMCElemO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo></Codigo>
+			<Mensagem></Mensagem>
+			<ListaDados>
+				<Dados>
+					<CodigoElemento></CodigoElemento>
+					<NomeElemento></NomeElemento>
+				</Dados>
+			</ListaDados>
+		</Retorno>
+	</ListaRetorno>	-
+</SiebelMessage>

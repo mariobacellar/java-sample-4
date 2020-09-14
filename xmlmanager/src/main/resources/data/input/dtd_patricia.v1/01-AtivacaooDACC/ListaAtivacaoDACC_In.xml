@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SiebelMessage SYSTEM "ListaAtivacaoDACC_In.dtd" >
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaAtivacaoDACC>
+    <Dados OrigemRequisicao="">
+      <ListaDocumentos>
+        <Documento>
+          <TipoDocumento>TipoDocumento</TipoDocumento>
+          <NumeroDocumento>NumeroDocumento</NumeroDocumento>
+        </Documento>
+      </ListaDocumentos>
+      <ListaFaturas>
+        <ContaFatura>
+          <NumeroConta>NumeroConta</NumeroConta>
+          <TipoCobranca>TipoCobranca</TipoCobranca>
+          <CodigoBanco>CodigoBanco</CodigoBanco>
+          <CodigoAgencia>CodigoAgencia</CodigoAgencia>
+          <ContaCorrente>ContaCorrente</ContaCorrente>
+          <PDV>PDV</PDV>
+          <LoginVendedor>LoginVendedor</LoginVendedor>
+          <NomeBanco>NomeBanco</NomeBanco>
+          <NumeroCartaoCredito>NumeroCartaoCredito</NumeroCartaoCredito>
+        </ContaFatura>
+      </ListaFaturas>
+    </Dados>
+  </ListaAtivacaoDACC>
+</SiebelMessage>

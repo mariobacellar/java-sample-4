@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="" elementFormDefault="qualified">
+	<xsd:element name="SiebelMessage">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ListaRetorno" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Retorno" minOccurs="0">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Codigo" minOccurs="0"
+											type="xsd:string" />
+										<xsd:element name="Mensagem" minOccurs="0"
+											type="xsd:string" />
+										<xsd:element name="ListaDados" minOccurs="0">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="Dados" minOccurs="0">
+														<xsd:complexType>
+															<xsd:sequence>
+																<xsd:element name="IdBundle" minOccurs="0"
+																	type="xsd:string" />
+															</xsd:sequence>
+														</xsd:complexType>
+													</xsd:element>
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="MessageId" type="xsd:string"
+				use="required" />
+			<xsd:attribute name="MessageType" type="xsd:string"
+				use="required" />
+			<xsd:attribute name="IntObjectName"
+				type="xsd:normalizedString" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

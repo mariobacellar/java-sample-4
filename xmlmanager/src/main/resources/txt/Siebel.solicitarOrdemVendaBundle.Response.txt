@@ -1,0 +1,2 @@
+SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMPRetO";ListaCriarOrdemServico
+SiebelMessage/ListaRetorno/Retorno;IdBundle

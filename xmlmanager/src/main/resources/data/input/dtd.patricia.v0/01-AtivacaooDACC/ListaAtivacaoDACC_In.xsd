@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="SiebelMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ListaAtivacaoDACC"/>
+      </xs:sequence>
+      <xs:attribute name="IntObjectName" use="required"/>
+      <xs:attribute name="MessageId" use="required"/>
+      <xs:attribute name="MessageType" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaAtivacaoDACC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Dados"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ListaDocumentosDocumento"/>
+        <xs:element ref="ListaFaturasContaFatura"/>
+      </xs:sequence>
+      <xs:attribute name="OrigemRequisicao" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaDocumentosDocumento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Documento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Documento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="TipoDocumento"/>
+        <xs:element ref="NumeroDocumento"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TipoDocumento" type="xs:NCName"/>
+  <xs:element name="NumeroDocumento" type="xs:NCName"/>
+  <xs:element name="ListaFaturasContaFatura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ContaFatura"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ContaFatura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NumeroConta"/>
+        <xs:element ref="TipoCobranca"/>
+        <xs:element ref="CodigoBanco"/>
+        <xs:element ref="CodigoAgencia"/>
+        <xs:element ref="ContaCorrente"/>
+        <xs:element ref="PDV"/>
+        <xs:element ref="LoginVendedor"/>
+        <xs:element ref="NomeBanco"/>
+        <xs:element ref="NumeroCartaoCredito"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumeroConta" type="xs:NCName"/>
+  <xs:element name="TipoCobranca" type="xs:NCName"/>
+  <xs:element name="CodigoBanco" type="xs:NCName"/>
+  <xs:element name="CodigoAgencia" type="xs:NCName"/>
+  <xs:element name="ContaCorrente" type="xs:NCName"/>
+  <xs:element name="PDV" type="xs:NCName"/>
+  <xs:element name="LoginVendedor" type="xs:NCName"/>
+  <xs:element name="NomeBanco" type="xs:NCName"/>
+  <xs:element name="NumeroCartaoCredito" type="xs:NCName"/>
+</xs:schema>

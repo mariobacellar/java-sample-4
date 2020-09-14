@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="SiebelMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ListaRetorno"/>
+      </xs:sequence>
+      <xs:attribute name="IntObjectName" use="required"/>
+      <xs:attribute name="MessageId" use="required"/>
+      <xs:attribute name="MessageType" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListaRetorno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Retorno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Retorno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Codigo"/>
+        <xs:element ref="Mensagem"/>
+        <xs:element ref="ListaDadosDados"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Codigo" type="xs:NCName"/>
+  <xs:element name="Mensagem" type="xs:NCName"/>
+  <xs:element name="ListaDadosDados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Dados"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="IdContaFatura"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IdContaFatura" type="xs:NCName"/>
+</xs:schema>

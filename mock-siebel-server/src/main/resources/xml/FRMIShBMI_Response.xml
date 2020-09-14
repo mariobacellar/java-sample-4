@@ -1,0 +1,9 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMPRetO">
+	<ListaRetorno>
+		<Retorno>
+			<Codigo>0</Codigo>
+			<Mensagem>SUCESSO</Mensagem>
+			<IdBundle>8888</IdBundle>
+		</Retorno>
+	</ListaRetorno>
+</SiebelMessage>

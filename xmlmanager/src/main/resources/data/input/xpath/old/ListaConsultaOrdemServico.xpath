@@ -1,0 +1,6 @@
+9MessageId=""#MessageType="Integration Object"#IntObjectName="FRMCOSI"
+SiebelMessage;ListaConsultaOrdemServico
+SiebelMessage/ListaConsultaOrdemServico;Dados
+SiebelMessage/ListaConsultaOrdemServico/Dados;ListaOrdens
+SiebelMessage/ListaConsultaOrdemServico/Dados/ListaOrdens;Ordem
+SiebelMessage/ListaConsultaOrdemServico/Dados/ListaOrdens/Ordem;NumeroOS

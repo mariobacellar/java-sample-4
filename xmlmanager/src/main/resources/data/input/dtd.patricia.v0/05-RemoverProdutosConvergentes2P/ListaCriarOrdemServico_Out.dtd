@@ -1,0 +1,12 @@
+<!ELEMENT SiebelMessage (ListaRetorno?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaRetorno (Retorno+) >
+<!ELEMENT Retorno (Codigo?, Mensagem?, IdBundle?, ListaItensOrdemItemOrdem?)>
+<!ELEMENT ListaItensOrdemItemOrdem (ItemOrdem*) >
+<!ELEMENT ItemOrdem (MSISDN?)>
+<!ELEMENT Codigo 	(#PCDATA) >
+<!ELEMENT Mensagem 	(#PCDATA) >
+<!ELEMENT IdBundle 	(#PCDATA) >
+<!ELEMENT MSISDN 	(#PCDATA) >

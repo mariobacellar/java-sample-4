@@ -1,0 +1,13 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaConsultaOsCloud>
+    <Dados OrigemRequisicao="">
+      <MeiodeAcesso>MeiodeAcesso</MeiodeAcesso>
+      <ListaDocumentosDocumento>
+        <Documento>
+          <TipoDocumentoPrincipal>TipoDocumentoPrincipal</TipoDocumentoPrincipal>
+          <NumeroDocumento>NumeroDocumento</NumeroDocumento>
+        </Documento>
+      </ListaDocumentosDocumento>
+    </Dados>
+  </ListaConsultaOsCloud>
+</SiebelMessage>

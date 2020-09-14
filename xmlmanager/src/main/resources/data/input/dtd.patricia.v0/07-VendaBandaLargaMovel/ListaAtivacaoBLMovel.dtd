@@ -1,0 +1,20 @@
+<!ELEMENT SiebelMessage (ListaAtivacaoBLMovel?) >
+<!ATTLIST SiebelMessage MessageId 		CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType 	CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName 	CDATA #IMPLIED>
+<!ELEMENT ListaAtivacaoBLMovel (Dados+) >
+<!ELEMENT Dados (ListaOrdensOrdem?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaOrdensOrdem (Ordem*) >
+<!ELEMENT Ordem (NumeroContaFatura?, NomePlano?, NomeCampanha?, NomeOferta?, PDV?, ListaItensOrdemItemOrdem?)>
+<!ELEMENT ItemOrdem (DDD?, OpcaoOiDados?, MSISDN?, OiChip?)>
+<!ELEMENT ListaItensOrdemItemOrdem (ItemOrdem*) >
+<!ELEMENT NumeroContaFatura	(#PCDATA) >
+<!ELEMENT NomePlano			(#PCDATA) >
+<!ELEMENT NomeCampanha		(#PCDATA) >
+<!ELEMENT NomeOferta 		(#PCDATA) >
+<!ELEMENT PDV 				(#PCDATA) >
+<!ELEMENT DDD 				(#PCDATA) >
+<!ELEMENT OpcaoOiDados 		(#PCDATA) >
+<!ELEMENT MSISDN 			(#PCDATA) >
+<!ELEMENT OiChip 			(#PCDATA) >

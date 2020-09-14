@@ -1,0 +1,13 @@
+<!-- Copyright (C) 1994, Siebel Systems, L.P., All rights reserved. -->
+<!-- Siebel DTD Generation -->
+<!ELEMENT SiebelMessage (ListaRetorno?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaRetorno (Retorno+)>
+<!ELEMENT Retorno (Codigo?,Mensagem?,ListaMeioDeAcesso?)>
+<!ELEMENT Codigo (#PCDATA) >
+<!ELEMENT Mensagem (#PCDATA) >
+<!ELEMENT ListaMeioDeAcesso (MeioDeAcesso*) >
+<!ELEMENT MeioDeAcesso (MSISDN?)>
+<!ELEMENT MSISDN (#PCDATA) >

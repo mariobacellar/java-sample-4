@@ -1,0 +1,8 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaRetorno>
+    <Retorno>
+      <Codigo>-5</Codigo>
+      <Mensagem>Erro técnico</Mensagem>
+    </Retorno>
+  </ListaRetorno>
+</SiebelMessage>

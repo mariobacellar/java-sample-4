@@ -1,0 +1,8 @@
+9MessageId=""#MessageType="Integration Object"#IntObjectName="FRMPRetO"
+SiebelMessage;ListaRetorno
+SiebelMessage/ListaRetorno;Retorno
+SiebelMessage/ListaRetorno/Retorno;Codigo 
+SiebelMessage/ListaRetorno/Retorno;Mensagem
+SiebelMessage/ListaRetorno/Retorno;ListaDados
+SiebelMessage/ListaRetorno/Retorno/ListaDados;Dados
+SiebelMessage/ListaRetorno/Retorno/ListaDados/Dados;IdBundle

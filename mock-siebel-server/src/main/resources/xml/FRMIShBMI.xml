@@ -1,0 +1,28 @@
+<SiebelMessage MessageId="" MessageType="Integration Object" IntObjectName="FRMIShBI">
+  <ListaCriarOrdemServico>
+    <Dados>
+      <ListaOrdens>
+        <Ordem>
+          <NumeroContaFatura>str1234</NumeroContaFatura>
+          <NomePlano>str1234</NomePlano>
+          <NomeCampanha>str1234</NomeCampanha>
+          <NomeOferta>str1234</NomeOferta>
+          <NumeroFixoConvergente>str1234</NumeroFixoConvergente>
+          <VelocidadeVelox>str1234</VelocidadeVelox>
+          <PDV>str1234</PDV>
+          <NumeroContratoTV>str1234</NumeroContratoTV>
+          <ListaItensOrdem>
+            <ItemOrdem>
+              <DDD>str1234</DDD>
+            </ItemOrdem>
+          </ListaItensOrdem>
+          <ListaProdutosTV>
+            <ProdutosTV>
+              <NomeProdPrincOiTV>str1234</NomeProdPrincOiTV>
+            </ProdutosTV>
+          </ListaProdutosTV>
+        </Ordem>
+      </ListaOrdens>
+    </Dados>
+  </ListaCriarOrdemServico>
+</SiebelMessage>

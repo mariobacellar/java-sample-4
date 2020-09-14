@@ -1,0 +1,38 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SiebelMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ListaRetorno">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Retorno">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="Codigo"/>
+                    <xs:element type="xs:string" name="Mensagem"/>
+                    <xs:element name="ListaDados">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Dados">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="IdContaFatura"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="IntObjectName"/>
+      <xs:attribute type="xs:string" name="MessageId"/>
+      <xs:attribute type="xs:string" name="MessageType"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

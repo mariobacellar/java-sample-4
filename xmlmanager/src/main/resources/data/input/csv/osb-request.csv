@@ -1,0 +1,131 @@
+Ordem;Grupo;Nome do Campo;Descrição;Tipo;Tamanho;Obrigatoriedade;Ocorrência (Min);Ocorrência(Max);Domínio/Máscara
+1;;inserirContatoContaRequest;-;Agrupador;-;Sim;1;1;-
+2;inserirContatoContaRequest;MessageHeader;-;Agrupador;-;Sim;1;1;-
+3;inserirContatoContaRequest/MessageHeader;Operation;Operação;;;Não;0;1;Texto Livre
+4;inserirContatoContaRequest/MessageHeader;TransactionId;Identificador da Transação;;;Sim;1;1;Texto Livre
+5;inserirContatoContaRequest/MessageHeader;CorrelationId;Identificador de Correlação das Mensagens;;;Não;0;1;Texto Livre
+6;inserirContatoContaRequest/MessageHeader;BusinessId;Identificador de Negócios;;;Não;0;1;OA0848 
+7;inserirContatoContaRequest/MessageHeader;Timestamp;Data da realização da solicitação;;;Sim;1;1;
+8;inserirContatoContaaRequest;Body;-;Agrupador;-;Sim;1;1;-
+9;;;;;;;;;
+10;;;;;;;;;
+11;;;;;;;;;
+12;;;;;;;;;
+13;;;;;;;;;
+14;inserirContatoContaRequest/Body;OrigemRequisicao;Nome do Sistema Origem;String;10;Não;0;1;Texto Livre
+15;inserirContatoContaRequest//Body;ListaDocumentos;-;Lista;-;Sim;1;1;-
+16;inserirContatoContaRequest/Body/ListaDocumentos;Documentos;-;Agrupador;-;Não;1;1;-
+17;inserirContatoContaRequest/Body/ListaDocumentos/Documentos;DescricaoTipoDocumento;"Descrição do tipo de documento principal do cliente (CPF,CNPJ, Passaporte, Identidade etc).
+(Atributo canonico DescricaoTipoDocumento da entidade canonica Identificacao)";String;50;Não;0;1;Texto Livre
+18;inserirContatoContaRequest/Body/ListaDocumentos/Documentos;NumeroDocumento;"Indica o número de documento especificado
+(Atributo da entidade canonica Identificacao)";String;100;Não;0;1;Texto Livre
+19;inserirContatoContaRequest/Body/ListaDocumentos/Documentos;OrgaoExpedidorDocumentoSecundario;"Orgão responsável pela expedição do documento secundário.
+(Atributo da entidade canonica Identificacao)";String;54;Não;0;1;Texto Livre
+20;inserirContatoContaRequest/Body/ListaDocumentos/Documentos;ListaTelefones;;Lista;-;Sim;1;1;-
+21;inserirContatoContaRequest/Body/ListaDocumentos/Documentos/ListaTelefones;Telefones;;Agrupador;-;Não;0;1;-
+22;inserirContatoContaRequest/Body/ListaDocumentos/Documentos/ListaTelefones/Telefones;Tipo;"Tipo do telefone 1 (Residencial, Comercial, etc)
+(Atributo da entidade canonica Cliente)";String;30;Não;0;6;Texto Livre
+23;inserirContatoContaRequest/Body/ListaDocumentos/Documentos/ListaTelefones/Telefones;Numero;"Identifica o 1º número de telefone
+(Atributo da entidade canonica Cliente)";String;30;Não;0;6;Texto Livre
+24;inserirContatoContaRequest/Body;ListaContas;;Lista;-;Sim;1;1;-
+25;inserirContatoContaRequest/Body/ListaContas;Conta;;Agrupador;-;Não;0;1;-
+26;inserirContatoContaRequest/Body/ListaContas/Conta;IdClientePagador;"Id do cliente responsável pelo pagamento da fatura
+(Atributo da entidade canonica ContaFatura)";String;30;Não;0;1;Texto Livre
+27;inserirContatoContaRequest/Body/ListaContas/Conta;IndicadorFraude;"Indica que o sistema detectou uma fraude relacionada a Conta Cliente.
+(Atributo da entidade canonica Cliente)";String;30;Não;0;1;Texto Livre
+28;inserirContatoContaRequest/Body/ListaContas/Conta;IdSegmentacao;Identificador único de segmentação(Atributo da entidade canonica Segmentacao);String;30;Não;0;1;Texto Livre
+29;inserirContatoContaRequest/Body/ListaContas/Conta;IndicadorVitimaFraude;Indica se o cliente foi vitima de fraude em um ou mais produtos contratados junto a Operadora.(Atributo da entidade canonica Cliente);Boolean;1;Não;0;1;Texto Livre
+30;inserirContatoContaRequest/Body/ListaContas/Conta;IndicadorInadimplencia;Campo que indica se o cliente está inadimplente (Ex. Possui pendência financeira).(Atributo da entidade canonica Cliente);Boolean;1;Não;0;1;Texto Livre
+31;SiebelMessage/ListaInsContatoConta/Dados;ListaContatos;;Lista;-;Sim;1;1;-
+32;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos;Contato;;Agrupador;-;Sim;1;1;-
+33;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;DataNascimento;"Data de nascimento da pessoa física
+(Atributo da entidade canonica IdentidadeLegal)";Date;10;Não;0;1;Texto Livre
+34;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;Comentarios;Comentários referente ao cliente (Atributo da entidade canonica Cliente);String;255;Não;0;1;Texto Livre
+35;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;EnderecoEmail;1º Endereço de e-mail (Atributo da entidade canonica Cliente);String;100;Não;0;1;Texto Livre
+36;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;Sexo;Referência Sexual da pessoa física (Atributo da entidade canonica IdentidadeLegal);String;30;Sim;1;1;Texto Livre
+37;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;EstadoCivil;Estado civil do Cliente (Atributo da entidade canonica IdentidadeLegal);String;50;Não;0;1;Texto Livre
+38;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;NomeMae;"Nome da mãe da pessoa física na Identidade legal
+(Atributo da entidade canonica IdentidadeLegal)";String;100;Não;0;1;Texto Livre
+39;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;NaturalidadeCliente;"Cidade ou estado de nascimento do cliente. Ex.: Rio de Janeiro
+(Atributo da entidade canonica IdentidadeLegal)";String;50;Não;0;1;Texto Livre
+40;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;Nome;"Nome que identifica a pessoa física/jurídica na identidade legal
+(Atributo da entidade canonica IdentidadeLegal)";String;150;Sim;1;1;Texto Livre
+41;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;OcupacaoPrincipal;"Identifica a descrição da ocupação principal do cliente
+(Atributo da entidade canonica Cliente)";String;75;Não;0;1;Texto Livre
+42;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;OcupacaoSecundaria;"Identifica a descrição da ocupação secundária do cliente
+(Atributo da entidade canonica Cliente)";String;75;Não;0;1;Texto Livre
+43;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;StatusRelacionamentoMovel;"Status de relacionamento do cliente com a Móvel (CLIENTE, NÃO CLIENTE).
+(Atributo da entidade canonica Cliente)";String;25;Não;0;1;Texto Livre
+44;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;Profissao;"Ação de exercer um ofício, uma ciência ou uma arte.
+(Atributo da entidade canonica Cliente)";String;100;Não;0;1;Texto Livre
+45;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;FaixaRendaMensal;Faixa de Renda Mensal do Cliente (Atributo da entidade canonica Cliente);String;50;Não;0;1;Texto Livre
+46;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;DataInicioResidencia;"Representa a data em que o cliente começou a residir no imóvel indicado
+(Atributo da entidade canonica Cliente)";Date;;Não;0;1;Texto Livre
+47;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;TipoResidenciaCliente;"Indica o tipo de residência do cliente. Própria ou Alugada.
+(Atributo da entidade canonica Cliente)";String;30;Não;0;1;Texto Livre
+48;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IdUsuario;Identificador único do usuário. (Atributo da entidade canonica Usuario);String;30;Sim;1;1;Texto Livre
+49;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadordocumentoPendente;"Indica se o cliente possui documento(s) pendente(s)
+(Atributo da entidade canonica Cliente)";String;1;Não;0;1;Texto Livre
+50;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorProspect;Indica se o registro refere-se a pré cadastro de cliente com potencial de Prospect (Atributo da entidade canonica Cliente);String;1;Não;0;1;Texto Livre
+51;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;CategoriaCliente;Indica se o Cliente é considerado Cliente VIP ou Colaborador OI, ou outros (Atributo da entidade canonica Cliente);String;30;Não;0;1;Texto Livre
+52;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;PaginaWeb;Endereço virtual utilizado pela internet para comunicação comercial ou pessoal.(Atributo da entidade canonica Cliente);String;255;Não;0;1;Texto Livre
+53;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;LembreteSenha;Representa sugestões e dicas para que o cliente recorde a senha cadastrada (Atributo da entidade canonica Cliente);String;30;Não;0;1;Texto Livre
+54;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;CodigoPontoVenda;Código do Ponto de Venda (Atributo da entidade canonica PontoVenda);String;50;Não;0;1;Texto Livre
+55;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;NomeNaRedeSocialPrincipal;"Indica o login/nome do cliente na rede social principal
+(Atributo da entidade canonica Cliente)";String;100;Não;0;1;Texto Livre
+56;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;QuantidadeDependente;"Representa a quantidade de dependentes que um cliente possui 
+(Atributo da entidade canonica Cliente)";Int;5;Não;0;1;Texto Livre
+57;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;GrauEscolaridade;"Descrição do grau de escolaridade do cliente 
+(Atributo da entidade canonica IdentidadeLegal)";String;50;Não;0;1;Texto Livre
+58;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;EmpregadorCliente;Empresa, individual ou coletiva, que assumindo os riscos da atividade econômica, admite, assalaria e dirige a prestação pessoal de serviço.(Atributo da entidade canonica Cliente);String;50;Não;0;1;Texto Livre
+59;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;NomeEmpresaOperadoraOi;Nome da Empresa Operadora. Utilizado principalmente para clientes de outras operadoras. (por exemplo: TELECOM DE GOIAS, TELECOM DE BRASILIA, Oi, Oi – CSP,…) (Atributo da entidade canonica Cliente);String;50;Não;0;1;Texto Livre
+60;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;CargoProfissional;"Cargo profissional ou função do contato com relação ao cliente.
+(Atributo da entidade canonica Contato)";String;80;Não;0;1;Texto Livre
+61;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorColaboradorOi;Flag indicador de colaborador Oi (Atributo da entidade canonica Cliente);String;1;Não;0;1;Texto Livre
+62;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IdiomaCliente;Indica o idioma escolhido pelo cliente para contato posterior a ser feito pela OI (Atributo da entidade canonica Cliente);String;30;Não;0;1;Texto Livre
+63;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;HorarioContato;"Horario preferencial para contato ao cliente
+(Atributo da entidade canonica Contato)";String;50;Não;0;1;Texto Livre
+64;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;FormaContatoPreferencial;"Método preferencial para contactar a pessoa de contato.
+(Atributo da entidade canonica Contato)";String;100;Não;0;1;Texto Livre
+65;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorChamadaCelular;"Indica se o cliente autorizou a empresa a ligar para o telefone celular
+(Atributo da entidade canonica Cliente)";String;1;Não;0;1;Texto Livre
+66;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorChamadaTelefoneResidencial;"Indica se o cliente autorizou a empresa a ligar para o telefone residencial
+(Atributo da entidade canonica Cliente)";String;1;Não;0;1;Texto Livre
+67;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorChamadaTelefoneComercial;"Indica se o cliente autorizou a empresa a ligar para o telefone comercial
+(Atributo da entidade canonica Cliente)";String;1;Não;0;1;Texto Livre
+68;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorEnvioEmail;"Indica se o cliente autorizou a empresa a enviar email
+(Atributo da entidade canonica Cliente)";Boolean;1;Não;0;1;Texto Livre
+69;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorEnvioFax;"Indica se o cliente autorizou a empresa a enviar fax
+(Atributo da entidade canonica Cliente)";Boolean;1;Não;0;1;Texto Livre
+70;SiebelMessage/ListaInsContatoConta/Dados/ListaContatos/Cotato;IndicadorEnvioCarta;"Indica se o cliente autorizou a empresa a enviar carta
+(Atributo da entidade canonica Cliente)";Boolean;1;Não;0;1;Texto Livre
+71;SiebelMessage/ListaInsContatoConta/Dados;ListaEnderecos;;Lista;;Sim;1;1;-
+72;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos;Endereco;;Agrupador;-;Sim;1;1;-
+73;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CEP;Código de Endereço Postal. (Atributo da entidade canonica Endereco);String;30;Sim;1;1;Texto Livre
+74;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;UF;Unidade federativa. Sigla do estado.(Atributo da entidade canonica Endereco);String;3;Sim;1;1;Texto Livre
+75;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;Municipio;Nome do Município do endereço (Atributo da entidade canonica Endereco);String;50;Não;0;1;Texto Livre
+76;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;Bairro;Identificador do bairro (Atributo da entidade canonica Endereco);String;100;Não;0;1;Texto Livre
+77;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CodigoLogradouro;Código do Logradouro do endereço. Preenchimento automático (base de logradouros) (Atributo da entidade canonica Endereco);String;22;Sim;1;1;Texto Livre
+78;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;Logradouro;Nome do logradouro do endereço (Atributo da entidade canonica Endereco);String;200;Sim;1;1;Texto Livre
+79;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;TipoLogradouro;Tipo do logradouro do endereço por extenso (Atributo da entidade canonica Endereco);String;100;Não;0;1;Texto Livre
+80;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;NumeroImovel;Número do Imóvel. Número da porta. Pode ser S/N. (Atributo da entidade canonica Endereco);String;30;Sim;1;1;Texto Livre
+81;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;PontoReferencia;Descrição do Ponto de Referência(Atributo da entidade canonica Endereco);String;1000;Não;0;1;Texto Livre
+82;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;BaseConsultaOrigem;"Identificador da base origem de onde o endereço foi consultado. Exemplos: EqFax-RctM; EqFax-Receita; OIATDM-RCT; OIVNDM-RCT; Receita-STC; etc (Atributo da entidade canonica Endereco)";String;30;Não;0;1;Texto Livre
+83;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CodigoLocalidade;Identifica o código numérico da localidade entendido por todos os sistemas da Oi. (Atributo da entidade canonica Localidade);String;5;Sim;1;1;Texto Livre
+84;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CodigoLiteralLocalidade;Código identificador alfabético da localidade (Atributo da entidade canonica Localidade);String;4;Não;0;1;Texto Livre
+85;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CodigoOperadoraOiRegional;"Código da Operadora Oi que atende o endereço.
+(Atributo da entidade canonica Endereco)";Int;2;Não;0;1;Texto Livre
+86;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;NomeOperadoraOiRegional;"Nome da Operadora Oi que atende o endereço.
+(Atributo da entidade canonica Endereco)";String;30;Não;0;1;Texto Livre
+87;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;NumeroAglomerado;"Representa o número do aglomerado do endereço. 
+(Atributo da entidade canonica Endereco)";Int;5;Não;0;1;Texto Livre
+88;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;CodigoAglomerado;"Representa o código do aglomerado do endereço.
+(Atributo da entidade canonica Endereco)";Int;9;Não;0;1;Texto Livre
+89;SiebelMessage/ListaInsContatoConta/Dados/ListaEnderecos/Endereco;Aglomerado;Nome do Aglomerado do Logradouro (Atributo da entidade canonica Endereco);String;200;Não;0;1;Texto Livre
+90;SiebelMessage/ListaInsContatoConta/Dados;ListaComplementos;;Lista;-;Sim;1;1;-
+91;SiebelMessage/ListaInsContatoConta/Dados/ListaComplementos;Complemento;;Agrupador;-;Não;0;1;-
+92;SiebelMessage/ListaInsContatoConta/Dados/ListaComplementos/Complemento;NumeroComplemento;"Representa o número do complemento do Logradouro. 
+(Atributo da entidade canonica Endereco)";String;20;Não;0;1;Texto Livre
+93;;;;;;;;;
+94;SiebelMessage/ListaInsContatoConta/Dados/ListaComplementos/Complemento;TipoComplemento1;"Complemento do endereço. Ex: Bloco, Apto, Quadra, Lote, etc.
+(Atributo da entidade canonica Endereco)";String;75;Não;0;1;Texto Livre

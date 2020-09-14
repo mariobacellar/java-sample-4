@@ -1,0 +1,14 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaConsultaMeioDeAcesso>
+    <Dados OrigemRequisicao="">
+      <ListaMeioDeAcessoMeioDeAcesso>
+        <MeioDeAcesso>
+          <NumeroContaFatura>NumeroContaFatura</NumeroContaFatura>
+          <DDD>DDD</DDD>
+          <Designacao>Designacao</Designacao>
+          <Classificacao>Classificacao</Classificacao>
+        </MeioDeAcesso>
+      </ListaMeioDeAcessoMeioDeAcesso>
+    </Dados>
+  </ListaConsultaMeioDeAcesso>
+</SiebelMessage>

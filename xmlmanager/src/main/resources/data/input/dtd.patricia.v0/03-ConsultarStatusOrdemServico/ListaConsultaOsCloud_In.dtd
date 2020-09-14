@@ -1,0 +1,12 @@
+<!ELEMENT SiebelMessage (ListaConsultaOsCloud?) >
+<!ATTLIST SiebelMessage MessageId 		CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType 	CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName	CDATA #IMPLIED>
+<!ELEMENT ListaConsultaOsCloud (Dados+) >
+<!ELEMENT Dados (MeiodeAcesso?, ListaDocumentosDocumento?)>
+<!ATTLIST Dados OrigemRequisicao CDATA #IMPLIED >
+<!ELEMENT ListaDocumentosDocumento (Documento*) >
+<!ELEMENT Documento (TipoDocumentoPrincipal?,NumeroDocumento?)>
+<!ELEMENT MeiodeAcesso (#PCDATA) >
+<!ELEMENT TipoDocumentoPrincipal (#PCDATA) >
+<!ELEMENT NumeroDocumento (#PCDATA) >

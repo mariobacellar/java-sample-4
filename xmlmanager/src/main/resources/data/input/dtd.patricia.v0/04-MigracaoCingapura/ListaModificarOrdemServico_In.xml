@@ -1,0 +1,28 @@
+<SiebelMessage IntObjectName="" MessageId="" MessageType="">
+  <ListaCriarOrdemServico>
+    <Dados OrigemRequisicao="">
+      <ListaOrdensOrdem>
+        <Ordem>
+          <NumeroContaFatura>NumeroContaFatura</NumeroContaFatura>
+          <NomePlano>NomePlano</NomePlano>
+          <NomeCampanha>NomeCampanha</NomeCampanha>
+          <NomeOferta>NomeOferta</NomeOferta>
+          <NumeroFixoConvergente>NumeroFixoConvergente</NumeroFixoConvergente>
+          <VelocidadeVelox>VelocidadeVelox</VelocidadeVelox>
+          <PDV>PDV</PDV>
+          <NumeroContratoTV>NumeroContratoTV</NumeroContratoTV>
+          <ListaItensOrdemItemOrdem>
+            <ItemOrdem>
+              <DDD>DDD</DDD>
+            </ItemOrdem>
+          </ListaItensOrdemItemOrdem>
+          <ListaProdutosTVProdutosTV>
+            <ProdutosTV>
+              <NomeProdPrincOiTV>NomeProdPrincOiTV</NomeProdPrincOiTV>
+            </ProdutosTV>
+          </ListaProdutosTVProdutosTV>
+        </Ordem>
+      </ListaOrdensOrdem>
+    </Dados>
+  </ListaCriarOrdemServico>
+</SiebelMessage>

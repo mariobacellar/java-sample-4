@@ -1,0 +1,59 @@
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SiebelMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ListaAtivacaoDACC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Dados">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ListaDocumentos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Documento">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="TipoDocumento"/>
+                                <xs:element type="xs:string" name="NumeroDocumento"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ListaFaturas">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ContaFatura">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="NumeroConta"/>
+                                <xs:element type="xs:string" name="TipoCobranca"/>
+                                <xs:element type="xs:string" name="CodigoBanco"/>
+                                <xs:element type="xs:string" name="CodigoAgencia"/>
+                                <xs:element type="xs:string" name="ContaCorrente"/>
+                                <xs:element type="xs:string" name="PDV"/>
+                                <xs:element type="xs:string" name="LoginVendedor"/>
+                                <xs:element type="xs:string" name="NomeBanco"/>
+                                <xs:element type="xs:string" name="NumeroCartaoCredito"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="OrigemRequisicao"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="IntObjectName"/>
+      <xs:attribute type="xs:string" name="MessageId"/>
+      <xs:attribute type="xs:string" name="MessageType"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

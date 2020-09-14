@@ -1,0 +1,49 @@
+<!ELEMENT SiebelMessage (ListaHistoricoFatura?) >
+<!ATTLIST SiebelMessage MessageId CDATA #IMPLIED>
+<!ATTLIST SiebelMessage MessageType CDATA #IMPLIED>
+<!ATTLIST SiebelMessage IntObjectName CDATA #IMPLIED>
+<!ELEMENT ListaHistoricoFatura (Dados+) >
+<!ELEMENT Dados (Mensagem?,	Codigo?, ListaHistFatura?)>
+<!ELEMENT Mensagem (#PCDATA) >
+<!ELEMENT Codigo (#PCDATA) >
+<!ELEMENT ListaHistFatura (Faturas*) >
+<!ELEMENT Faturas (ValorTotal?,
+			ValorFatura?,
+			ValorContestado?,
+			ValorAjuste?,
+			UrlPDF?,
+			FormatoFatura?,
+			Status?,
+			TipoBoleto?,
+			MidiaEmissao?,
+			NumeroFatura?,
+			MotivoImpressao?,
+			LoginModificacao?,
+			MesReferencia?,
+			DataVencimento?,
+			VencimentoProrrogado?,
+			DataModificacao?,
+			DataCriacao?,
+			CriadoPor?,
+			CodigoBarras?,
+			NumeroContaFatura?)>
+<!ELEMENT ValorTotal (#PCDATA) >
+<!ELEMENT ValorFatura (#PCDATA) >
+<!ELEMENT ValorContestado (#PCDATA) >
+<!ELEMENT ValorAjuste (#PCDATA) >
+<!ELEMENT UrlPDF (#PCDATA) >
+<!ELEMENT FormatoFatura (#PCDATA) >
+<!ELEMENT Status (#PCDATA) >
+<!ELEMENT TipoBoleto (#PCDATA) >
+<!ELEMENT MidiaEmissao (#PCDATA) >
+<!ELEMENT NumeroFatura (#PCDATA) >
+<!ELEMENT MotivoImpressao (#PCDATA) >
+<!ELEMENT LoginModificacao (#PCDATA) >
+<!ELEMENT MesReferencia (#PCDATA) >
+<!ELEMENT DataVencimento (#PCDATA) >
+<!ELEMENT VencimentoProrrogado (#PCDATA) >
+<!ELEMENT DataModificacao (#PCDATA) >
+<!ELEMENT DataCriacao (#PCDATA) >
+<!ELEMENT CriadoPor (#PCDATA) >
+<!ELEMENT CodigoBarras (#PCDATA) >
+<!ELEMENT NumeroContaFatura (#PCDATA) >

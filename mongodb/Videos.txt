@@ -1,0 +1,10 @@
+Spring Boot and MongoDB: Building REST Based CRUD Services
+https://www.youtube.com/watch?v=68K96tSADfg
+
+What is MongoDB? Spring Data MongoDB in Spring Boot Application with Example
+https://www.youtube.com/watch?v=l5KC6OcbuOI
+
+Spring Boot + Spring Data MongoDB example
+https://www.mkyong.com/spring-boot/spring-boot-spring-data-mongodb-example/
+
+Building an Application with Spring Boot
